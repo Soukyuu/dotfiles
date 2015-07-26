@@ -1,0 +1,66 @@
+[CompactMode]
+FontWeight=50
+MaximumTextWidthIndex=2
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DetailsMode]
+FontWeight=50
+
+[DownloadDialog Settings]
+Height 1080=513
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+ShowFullPath=true
+ShowSpaceInfo=true
+Version=200
+ViewPropsTimestamp=2015,2,11,19,48,19
+
+[IconsMode]
+FontWeight=50
+MaximumTextLines=2
+PreviewSize=80
+
+[KFileDialog Settings]
+Height 1080=540
+Recent Files[$e]=$HOME/git/plasma-next-icons/Breeze,$HOME/git/plasma-next-icons,$HOME/.wine/drive_c/Program Files (x86)/foobar2000/foobar2000.exe,$HOME/Pictures/Logos/asl.png,/mnt/winsys/Program Files (x86)/Hamana/Hamana.exe,$HOME/.local/share/user-places.xbel,/mnt/winproj/Ar tonelico 2 Retranslation Project/z_misc/at2_ico_128.png
+Recent URLs[$e]=$HOME/.local/,/mnt/winsys/Program Files (x86)/Hamana/,$HOME/Pictures/,$HOME/.wine/drive_c/Program Files (x86)/foobar2000/,$HOME/git/plasma-next-icons/Breeze/
+Width 1920=938
+
+[KPropertiesDialog]
+Height 1080=462
+Width 1920=421
+
+[MainWindow]
+Height 1024=706
+Height 1080=706
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAB2AAACnPwCAAAAAfsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAAJgAAApwAAABQAQAAAwAAAAEAAADfAAACpPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAeAAACpAAAAAoBAAAD+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAH0AAAIpAAAACgEAAAMAAAADAAAEPwAAAX38AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEPwAAAAoBAAADAAADyAAAApwAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1280=1087
+Width 1920=1087
+
+[Open-with settings]
+CompletionMode=5
+History=mpv,foobar2000,mcomix %f,puddletag,metamorphose2,'/home/azure/.wine/drive_c/Program Files (x86)/foobar2000/foobar2000.exe',kate,gwenview -f,mcomix,'/mnt/winsys/Program Files (x86)/Hamana/Hamana.exe',ppub,deadbeef,7zFM,ark -caption %c %U,gwenview
+
+[PlacesPanel]
+IconSize=16
+
+[PreviewSettings]
+Plugins=comicbookthumbnail,desktopthumbnail,exrthumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[SettingsDialog]
+Height 1080=402
+Width 1920=512
+
+[Shortcut Schemes]
+Current Scheme=Default
+
+[VersionControl]
+enabledPlugins=Dropbox

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=2.1.5
+Name=CUETools
+Comment=CD audio converter/verifier
+Exec=WINEPREFIX=/home/azure/.local/share/wineprefixes/win32 wine "/mnt/windata/Program Files/CUETools/CUETools.exe"
+Icon=/usr/share/icons/breeze/devices/sidebars/media-optical.svg
+Terminal=false
+Categories=AudioVideo;Audio

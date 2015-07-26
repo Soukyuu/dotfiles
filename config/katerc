@@ -1,0 +1,64 @@
+[CTags]
+GlobalCommand=ctags -R --c++-types=+px --extra=+q --excmd=pattern --exclude=Makefile --exclude=.
+GlobalNumTargets=0
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=
+
+[FileDialogSize]
+Height 1024=698
+Height 1080=698
+Width 1280=947
+Width 1920=947
+
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Modified Notification=false
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Startup Session=manual
+
+[KFileDialog Settings]
+Height 1080=540
+Recent Files[$e]=$HOME/Documents/bewerbung/bosch/fragen,$HOME/Documents/bewerbung/blöde_fragen.txt,$HOME/btrfs_raid1,$HOME/btrfs_dup.txt,$HOME/btrfs_single.txt,$HOME/.config/mpv/config,/mnt/windata/Ar tonelico 2 Retranslation Project/ELF_ERX_EVD/01_erx+evd_repack.sh,$HOME/.scripts/run_backup_lappy.sh,$HOME/.config/mpv/scripts/profileselect.lua,$HOME/Programming/ddb_notes.txt,$HOME/git/deadbeef-git/deadbeef/deadbeef.h,$HOME/Programming/ddb_rg_scan/git/Makefile,$HOME/git/deadbeef-git/deadbeef/plugins/converter/convgui.c,$HOME/git/deadbeef-git/deadbeef/plugins/converter/converter.c,$HOME/Programming/ddb_rg_scan/Makefile_old
+Recent URLs[$e]=$HOME/.config/mpv/scripts/,$HOME/.scripts/,/mnt/windata/Ar tonelico 2 Retranslation Project/ELF_ERX_EVD/,$HOME/Documents/bewerbung/bosch/,$HOME/.config/mpv/,$HOME/Documents/bewerbung/,$HOME/Documents/bewerbung/bosch/
+Width 1920=853
+
+[KTextEditor::Search]
+Replace History=erx,/mnt/windata/Ar tonelico 2 Retranslation Project/master/erxs/,erxs,/,master,/mnt/windata/,mitchell, -ggdb,-ggdb,Replay Gain,rg_scan_run,results_table,it,status_gain
+Search History=akame,ERX,/mnt/windata/Ar Tonelico 2 relocalization/master/erxs,ERXS,\\\\,a-ar2undub_fixed,E:\\\\Temp\\\\,unref,oversample,threa, -g,-g,local,thread,get_cur,copy,load,ReplayGain,scanner_run,cancelled,treeview1,GTK_TREE,tree,gtk_widget_show,DB_playItem_t,PL_Main,current,abort,scan->aborted,info->text,pl_item_unref,gain,decoder,encoder,flags,free,update_progress_cb,action,dialog_run,rgscan,init,sts,delete_meta,REPLAYGAIN,metadata,idle,refresh,id3v2_version,id3v2,pl_get_metadata,tag,create_converterdlg,progress_text,progress_entry,converter_process,show,convert,read (,DB_PLAYITEM,gtkui_plugin,converter_show,scanner_plugin,converter_plugin,add_frames,read) (,map,ddb_waveformat_t,scanner_show,scanner_show_cb,rgscan.,settings_dlg,install,sf_read,read,akame ost,49691,vgmdb,log horizon,http://vgmdb.net/album/47523, arge ,arge,mq,hq,lq,370,horizon,trace,mapped
+
+[Konsole]
+AutoSyncronize=false
+SetEditor=false
+
+[MainWindow]
+Height 1024=690
+Height 1080=1054
+State=AAAA/wAAAAD9AAAAAAAAB0IAAAQBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=969
+Width 1920=1858
+Window-Maximized 1024x1280=true
+Window-Maximized 1080x1920=true
+
+[Notification Messages]
+kate_ignore_modonhd=false
+
+[filetree]
+editShade=179,218,246
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=193,208,209

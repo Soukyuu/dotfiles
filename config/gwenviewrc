@@ -1,0 +1,57 @@
+[General]
+SideBarPage=operations
+
+[ImageView]
+AnimationMethod=DocumentView::NoAnimation
+MouseWheelBehavior=MouseWheelBehavior::Browse
+ThumbnailSplitterSizes=766,218
+
+[KFileDialog Settings]
+Height 1080=540
+Recent Files[$e]=/tmp/IMG_2018.jpeg,/tmp/_MG_2547.jpeg
+Recent URLs[$e]=/tmp/,/tmp/
+Width 1920=929
+
+[MainWindow]
+Height 1024=1024
+Height 1080=1080
+State=AAAA/wAAAAD9AAAAAAAAB0IAAAPbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1280
+Width 1920=1920
+Window-Maximized 1024x1280=true
+Window-Maximized 1080x1920=true
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4955.CR2
+File10[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4957.jpg
+File2[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4956.CR2
+File3[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4957.CR2
+File4[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4958.CR2
+File5[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4958.jpg
+File6[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4959.CR2
+File7[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4960.jpg
+File8[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4960.CR2
+File9[$e]=$HOME/Pictures/Photos/EOS 550D/2014_12/_MG_4955.jpg
+Name1[$e]=_MG_4955.CR2
+Name10[$e]=_MG_4957.jpg
+Name2[$e]=_MG_4956.CR2
+Name3[$e]=_MG_4957.CR2
+Name4[$e]=_MG_4958.CR2
+Name5[$e]=_MG_4958.jpg
+Name6[$e]=_MG_4959.CR2
+Name7[$e]=_MG_4960.jpg
+Name8[$e]=_MG_4960.CR2
+Name9[$e]=_MG_4955.jpg
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=false
+
+[ThumbnailView]
+ListVideos=false

@@ -1,0 +1,17 @@
+[Appearance]
+Skin=breezeV1.0
+SkinInstalledWithKns=true
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DownloadDialog Settings]
+Height 1024=513
+Width 1280=700
+
+[Favorite Profiles]
+Favorites=
+
+[Window]
+KeepOpen=false
+Screen=2
