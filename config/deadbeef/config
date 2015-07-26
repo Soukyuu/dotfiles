@@ -165,7 +165,7 @@ playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
 playlist.current 1
 playlist.cursor.0 38
-playlist.cursor.1 24
+playlist.cursor.1 28
 playlist.cursor.10 -1
 playlist.cursor.11 45
 playlist.cursor.12 62
@@ -190,7 +190,7 @@ playlist.cursor.8 128
 playlist.cursor.9 12
 playlist.group_by %b
 playlist.scroll.0 80
-playlist.scroll.1 70
+playlist.scroll.1 49
 playlist.scroll.10 0
 playlist.scroll.11 1176
 playlist.scroll.12 882
@@ -251,8 +251,8 @@ replaygain_mode 1
 replaygain_scale 1
 resume.paused 0
 resume.playlist 1
-resume.position 23.243270
-resume.track 24
+resume.position 43.932346
+resume.track 28
 resume_last_session 1
 rg_control.order_linear 2
 rg_control.order_random 1

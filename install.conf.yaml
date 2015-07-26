@@ -18,9 +18,6 @@
     ~/.config/mpv:
         path: config/mpv/
         create: true
-    ~/.config/photoqt:
-        path: config/photoqt/
-        create: true
     ~/.config/puddletag:
         path: config/puddletag/
         create: true
@@ -29,15 +26,6 @@
         create: true
     ~/.config/breezerc:
         path: config/breezerc
-        create: true
-    ~/.config/dolphinrc:
-        path: config/dolphinrc
-        create: true
-    ~/.config/gtkrc:
-        path: config/gtkrc
-        create: true
-    ~/.config/gtkrc-2.0:
-        path: config/gtkrc-2.0
         create: true
     ~/.config/gwenviewrc:
         path: config/gwenviewrc
@@ -54,16 +42,6 @@
     ~/.config/katesyntaxhighlightingrc:
         path: config/katesyntaxhighlightingrc
         create: true
-    ~/.config/kdeglobals:
-        path: config/kdeglobals
-        create: true
-    ~/.config/kglobalshortcutsrc:
-        path: config/kglobalshortcutsrc
-        create: true
-        force: true
-    ~/.config/khotkeysrc:
-        path: config/khotkeysrc
-        create: true
     ~/.config/klaunchrc:
         path: config/klaunchrc
         create: true
@@ -75,9 +53,6 @@
         create: true
     ~/.config/kwinrulesrc:
         path: config/kwinrulesrc
-        create: true
-    ~/.config/kxkbrc:
-        path: config/kxkbrc
         create: true
     ~/.config/redshift.conf:
         path: config/redshift.conf
@@ -100,17 +75,8 @@
     ~/.local/share/kservice5:
         path: local/share/kservice5/
         create: true
-    ~/.local/share/applications/ASLer.desktop:
-        path: local/share/applications/ASLer.desktop
-        create: true
-    ~/.local/share/applications/cuetools.desktop:
-        path: local/share/applications/cuetools.desktop
-        create: true
     ~/.local/share/konversation/scripts/np:
         path: local/share/konversation/scripts/np
-        create: true
-    ~/.photoqt:
-        path: photoqt/
         create: true
     ~/.scripts:
         path: scripts/
