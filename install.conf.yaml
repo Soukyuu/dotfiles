@@ -3,14 +3,8 @@
 - link:
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
     ~/.config/deadbeef: 
         path: config/deadbeef/
-        create: true
-    ~/.config/GIMP:
-        path: config/GIMP/
         create: true
     ~/.config/mcomix:
         path: config/mcomix/
@@ -20,9 +14,6 @@
         create: true
     ~/.config/puddletag:
         path: config/puddletag/
-        create: true
-    ~/.config/pulse/daemon.conf:
-        path: config/pulse/daemon.conf
         create: true
     ~/.config/breezerc:
         path: config/breezerc
@@ -57,14 +48,8 @@
     ~/.config/redshift.conf:
         path: config/redshift.conf
         create: true
-    ~/.config/yakuakerc:
-        path: config/yakuakerc
-        create: true
     ~/.config/katerc:
         path: config/katerc
-        create: true
-    ~/.gimp-2.8:
-        path: gimp-2.8/
         create: true
     ~/.gnupg/gpg.conf:
         path: gnupg/gpg.conf
@@ -77,6 +62,9 @@
         create: true
     ~/.local/share/konversation/scripts/np:
         path: local/share/konversation/scripts/np
+        create: true
+    ~/.photoqt:
+        path: photoqt/
         create: true
     ~/.scripts:
         path: scripts/

@@ -42,7 +42,7 @@ gtkui.font.tabstrip_text Sans 9
 gtkui.hide_remove_from_disk 1
 gtkui.hide_tray_icon 1
 gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Kara no Kyoukai.m3u8
-gtkui.layout.0.6.2 vsplitter pos=941 locked=0 {hsplitter pos=1370 locked=1 {playlist hideheaders=0 {} vsplitter pos=498 locked=1 {coverart {} vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } vsplitter pos=112 locked=1 {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
+gtkui.layout.0.6.2 vsplitter pos=873 locked=1 {hsplitter pos=1185 locked=1 {playlist hideheaders=0 {} vsplitter pos=429 locked=1 {coverart {} vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } vsplitter pos=112 locked=1 {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
 gtkui.mmb_delete_playlist 1
 gtkui.name_playlist_from_folder 1
 gtkui.override_bar_colors 0
@@ -103,10 +103,10 @@ hotkeys_created 1
 ignore_archives 1
 junk.enable_cp1251_detection 1
 junk.enable_shift_jis_detection 1
-mainwin.geometry.h 1054
+mainwin.geometry.h 1032
 mainwin.geometry.maximized 1
-mainwin.geometry.w 1858
-mainwin.geometry.x 60
+mainwin.geometry.w 1539
+mainwin.geometry.x 56
 mainwin.geometry.y 0
 mp3.id3v1_encoding iso8859-1
 mp3.id3v2_version 3
@@ -163,46 +163,46 @@ playlist.column.03 "Album" "%b" -1 346 0 0 0 0 0
 playlist.column.04 "Track" "%n" -1 53 1 0 0 0 0
 playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
-playlist.current 1
-playlist.cursor.0 38
-playlist.cursor.1 28
-playlist.cursor.10 -1
-playlist.cursor.11 45
-playlist.cursor.12 62
-playlist.cursor.13 190
-playlist.cursor.14 42
-playlist.cursor.15 6
-playlist.cursor.16 263
-playlist.cursor.17 49
-playlist.cursor.18 3
-playlist.cursor.19 11
-playlist.cursor.2 2
-playlist.cursor.20 3
-playlist.cursor.21 3
-playlist.cursor.22 17
+playlist.current 0
+playlist.cursor.0 17
+playlist.cursor.1 0
+playlist.cursor.10 0
+playlist.cursor.11 0
+playlist.cursor.12 0
+playlist.cursor.13 0
+playlist.cursor.14 0
+playlist.cursor.15 0
+playlist.cursor.16 0
+playlist.cursor.17 0
+playlist.cursor.18 0
+playlist.cursor.19 0
+playlist.cursor.2 0
+playlist.cursor.20 0
+playlist.cursor.21 0
+playlist.cursor.22 0
 playlist.cursor.23 0
-playlist.cursor.3 45
-playlist.cursor.4 97
-playlist.cursor.5 28
-playlist.cursor.6 119
-playlist.cursor.7 10
-playlist.cursor.8 128
-playlist.cursor.9 12
+playlist.cursor.3 0
+playlist.cursor.4 0
+playlist.cursor.5 0
+playlist.cursor.6 0
+playlist.cursor.7 0
+playlist.cursor.8 0
+playlist.cursor.9 0
 playlist.group_by %b
-playlist.scroll.0 80
-playlist.scroll.1 49
+playlist.scroll.0 0
+playlist.scroll.1 0
 playlist.scroll.10 0
-playlist.scroll.11 1176
-playlist.scroll.12 882
-playlist.scroll.13 6138
-playlist.scroll.14 2068
-playlist.scroll.15 565
-playlist.scroll.16 5795
-playlist.scroll.17 3557
+playlist.scroll.11 0
+playlist.scroll.12 0
+playlist.scroll.13 0
+playlist.scroll.14 0
+playlist.scroll.15 0
+playlist.scroll.16 0
+playlist.scroll.17 0
 playlist.scroll.18 0
 playlist.scroll.19 0
 playlist.scroll.2 0
-playlist.scroll.20 322
+playlist.scroll.20 0
 playlist.scroll.21 0
 playlist.scroll.22 0
 playlist.scroll.23 0
@@ -211,37 +211,14 @@ playlist.scroll.4 0
 playlist.scroll.5 0
 playlist.scroll.6 0
 playlist.scroll.7 0
-playlist.scroll.8 2503
+playlist.scroll.8 0
 playlist.scroll.9 0
 playlist.scroll.cursorfollowplayback 1
 playlist.scroll.followplayback 1
 playlist.stop_after_album_reset 1
 playlist.stop_after_current 0
 playlist.stop_after_current_reset 1
-playlist.tab.00000 Accel World
-playlist.tab.00001 Akame ga Kill! OST
-playlist.tab.00002 Amagami SS
-playlist.tab.00003 Ar tonelico Hymmnos
-playlist.tab.00004 Ar tonelico OST
-playlist.tab.00005 Argevollen OST
-playlist.tab.00006 Battlestar Galactica
-playlist.tab.00007 Blade & Soul
-playlist.tab.00008 DJMax
-playlist.tab.00009 I've Girls Compilation
-playlist.tab.00010 Kajiura Yuki
-playlist.tab.00011 Ling toshite shigure
-playlist.tab.00012 Monogatari OST
-playlist.tab.00013 OST slow
-playlist.tab.00014 OST uptempo
-playlist.tab.00015 Random
-playlist.tab.00016 Sawano Hiroyuki
-playlist.tab.00017 Sound Online
-playlist.tab.00018 Tokyo Ghoul OST
-playlist.tab.00019 WCW
-playlist.tab.00020 XenobladeX
-playlist.tab.00021 Kikkawa Kouji
-playlist.tab.00022 Now Playing
-playlist.tab.00023 New Playlist
+playlist.tab.00000 Now Playing
 prefwin.geometry.h 572
 prefwin.geometry.maximized 0
 prefwin.geometry.w 830
@@ -250,9 +227,9 @@ prefwin.geometry.y 193
 replaygain_mode 1
 replaygain_scale 1
 resume.paused 0
-resume.playlist 1
-resume.position 43.932346
-resume.track 28
+resume.playlist 0
+resume.position -1.000000
+resume.track -1
 resume_last_session 1
 rg_control.order_linear 2
 rg_control.order_random 1

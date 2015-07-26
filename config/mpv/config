@@ -2,20 +2,13 @@
 fullscreen
 ass-vsfilter-color-compat = basic
 
-# Interpolation on
 #vo = opengl-hq:interpolation:scale=ewa_lanczos:cscale=catmull_rom:fbo-format=rgba16f:alpha:swapinterval=1:scaler-resizes-only
-vo = opengl-hq:interpolation:scaler-resizes-only
-
-# Interpolation + Deband default
-#vo = opengl-hq:interpolation:scale=ewa_lanczos:cscale=catmull_rom:fbo-format=rgba16f:alpha:swapinterval=1:scaler-resizes-only:source-shader=/home/azure/.config/mpv/shaders/deband.glsl
-
-# Interpolation + Deband high
-#vo = opengl-hq:interpolation:scale=ewa_lanczos:cscale=catmull_rom:fbo-format=rgba16f:alpha:swapinterval=1:scaler-resizes-only:source-shader=/home/azure/.config/mpv/shaders/deband_high.glsl
-
-# Interpolation off
 #vo = opengl-hq:scale=ewa_lanczos:cscale=catmull_rom:fbo-format=rgba16f:alpha:swapinterval=1:scaler-resizes-only
-
-vf = vapoursynth=/home/azure/.config/mpv/scripts/mv_interpolation.py
+#vo = opengl-hq:smoothmotion:glfinish:scale=ewa_lanczos:cscale=catmull_rom:fbo-format=rgba16f:alpha:swapinterval=1:scaler-resizes-only
+vo = opengl:interpolation
+#ao = dsound
+#ao = wasapi
+#ao = null
 
 display-fps = 60
 
@@ -25,6 +18,8 @@ keep-open
 
 softvol-max = 100.0
 
+framedrop = no
+
 demuxer-mkv-subtitle-preroll
 
 screenshot-format = png
@@ -32,6 +27,3 @@ screenshot-template = "/tmp/%F_%P_%04n"
 
 no-input-default-bindings
 osc = yes
-osd-font-size=30
-
-cache=20480
