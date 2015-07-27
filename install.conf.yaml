@@ -78,6 +78,9 @@
     ~/.local/share/konversation/scripts/np:
         path: local/share/konversation/scripts/np
         create: true
+    ~/.photoqt:
+        path: photoqt/
+        create: true
     ~/.scripts:
         path: scripts/
         create: true
