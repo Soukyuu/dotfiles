@@ -35,8 +35,8 @@ Recent URLs[$e]=$HOME/.config/mpv/scripts/,$HOME/.scripts/,/mnt/windata/Ar tonel
 Width 1920=853
 
 [KTextEditor::Search]
-Replace History=erx,/mnt/windata/Ar tonelico 2 Retranslation Project/master/erxs/,erxs,/,master,/mnt/windata/,mitchell, -ggdb,-ggdb,Replay Gain,rg_scan_run,results_table,it,status_gain
-Search History=yumina,akame,ERX,/mnt/windata/Ar Tonelico 2 relocalization/master/erxs,ERXS,\\\\,a-ar2undub_fixed,E:\\\\Temp\\\\,unref,oversample,threa, -g,-g,local,thread,get_cur,copy,load,ReplayGain,scanner_run,cancelled,treeview1,GTK_TREE,tree,gtk_widget_show,DB_playItem_t,PL_Main,current,abort,scan->aborted,info->text,pl_item_unref,gain,decoder,encoder,flags,free,update_progress_cb,action,dialog_run,rgscan,init,sts,delete_meta,REPLAYGAIN,metadata,idle,refresh,id3v2_version,id3v2,pl_get_metadata,tag,create_converterdlg,progress_text,progress_entry,converter_process,show,convert,read (,DB_PLAYITEM,gtkui_plugin,converter_show,scanner_plugin,converter_plugin,add_frames,read) (,map,ddb_waveformat_t,scanner_show,scanner_show_cb,rgscan.,settings_dlg,install,sf_read,read,akame ost,49691,vgmdb,log horizon,http://vgmdb.net/album/47523, arge ,arge,mq,hq,lq,370,horizon,trace,mapped
+Replace History={nl},Go to,Vubbe,vubbe,erx,/mnt/windata/Ar tonelico 2 Retranslation Project/master/erxs/,erxs,/,master,/mnt/windata/,mitchell, -ggdb,-ggdb,Replay Gain,rg_scan_run,results_table,it,status_gain
+Search History=§,key="tab,alt="yes",keepsake,relic,soldiers,soldier's,$,Bokor,Pyromancer,Pavise,(nl),Move to,critical,critical attack,critical rate,vensi,Banshee,Vensi,vubbe,Bubbe,bubbe,yumina,akame,ERX,/mnt/windata/Ar Tonelico 2 relocalization/master/erxs,ERXS,\\\\,a-ar2undub_fixed,E:\\\\Temp\\\\,unref,oversample,threa, -g,-g,local,thread,get_cur,copy,load,ReplayGain,scanner_run,cancelled,treeview1,GTK_TREE,tree,gtk_widget_show,DB_playItem_t,PL_Main,current,abort,scan->aborted,info->text,pl_item_unref,gain,decoder,encoder,flags,free,update_progress_cb,action,dialog_run,rgscan,init,sts,delete_meta,REPLAYGAIN,metadata,idle,refresh,id3v2_version,id3v2,pl_get_metadata,tag,create_converterdlg,progress_text,progress_entry,converter_process,show,convert,read (,DB_PLAYITEM,gtkui_plugin,converter_show,scanner_plugin,converter_plugin,add_frames,read) (,map,ddb_waveformat_t,scanner_show,scanner_show_cb,rgscan.,settings_dlg,install,sf_read,read,akame ost,49691,vgmdb
 
 [Konsole]
 AutoSyncronize=false
@@ -44,16 +44,20 @@ SetEditor=false
 
 [MainWindow]
 Height 1024=690
-Height 1080=1054
+Height 1080=690
 State=AAAA/wAAAAD9AAAAAAAAB0IAAAQBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1280=969
-Width 1920=1858
-Window-Maximized 1024x1280=true
+Width 1280=1280
+Width 1920=1516
+Window-Maximized 1024x1280=false
 Window-Maximized 1080x1920=true
 
 [Notification Messages]
 kate_ignore_modonhd=false
+
+[Shortcuts]
+kate_mdi_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_toolview_kate_private_plugin_katekonsoleplugin=none
 
 [filetree]
 editShade=179,218,246

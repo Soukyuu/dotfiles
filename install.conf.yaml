@@ -70,10 +70,10 @@
         path: gnupg/gpg.conf
         create: true
     ~/.kde4/share/kde4/services:
-        path: local/share/kservice5/
+        path: local/share/kservices5/
         create: true
-    ~/.local/share/kservice5:
-        path: local/share/kservice5/
+    ~/.local/share/kservices5:
+        path: local/share/kservices5/
         create: true
     ~/.local/share/konversation/scripts/np:
         path: local/share/konversation/scripts/np

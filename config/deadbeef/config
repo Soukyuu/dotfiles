@@ -24,15 +24,15 @@ converter.output_format 0
 converter.overwrite_action 1
 deadbeef_version devel
 ffmpeg.extensions aa3;oma;ac3;vqf;amr;tak
-filechooser.lastdir file:///tmp/rgtest
-filechooser.playlist.lastdir file:///tmp
+filechooser.lastdir file:///home/azure/Music/Assumed%20Sounds/Strike%20the%20Blood%20Original%20Soundtrack%20Vol.%202
+filechooser.playlist.lastdir file:///home/azure/Music/%5BPlaylists%5D
 global_preamp 0.0000000
 gtkui.action_separators 0
 gtkui.autoresize_columns 0
 gtkui.color.listview_playing_text 22102 39835 58596
 gtkui.color.listview_selection 22102 39835 58596
-gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"23","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"266","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"53","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"307","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"377","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"73","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"95","align":"2","color_override":"0","color":"#ff141312"}]
-gtkui.conf_dsp_preset EP-650
+gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"22","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"265","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"52","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"306","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"376","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"72","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"94","align":"2","color_override":"0","color":"#ff141312"}]
+gtkui.conf_dsp_preset Kave
 gtkui.custom_tray_icon deadbeef_tray_icon
 gtkui.delete_files_ask 1
 gtkui.disable_seekbar_overlay 0
@@ -41,8 +41,8 @@ gtkui.eq.visible 0
 gtkui.font.tabstrip_text Sans 9
 gtkui.hide_remove_from_disk 1
 gtkui.hide_tray_icon 1
-gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Kara no Kyoukai.m3u8
-gtkui.layout.0.6.2 vsplitter pos=941 locked=0 {hsplitter pos=1370 locked=1 {playlist hideheaders=0 {} vsplitter pos=498 locked=1 {coverart {} vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } vsplitter pos=112 locked=1 {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
+gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Battlestar Galactica.m3u8
+gtkui.layout.0.6.2 vsplitter pos=945 locked=0 {hsplitter pos=1370 locked=1 {playlist hideheaders=0 {} vsplitter pos=498 locked=1 {coverart {} vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } vsplitter pos=112 locked=1 {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
 gtkui.mmb_delete_playlist 1
 gtkui.name_playlist_from_folder 1
 gtkui.override_bar_colors 0
@@ -103,10 +103,10 @@ hotkeys_created 1
 ignore_archives 1
 junk.enable_cp1251_detection 1
 junk.enable_shift_jis_detection 1
-mainwin.geometry.h 1054
+mainwin.geometry.h 860
 mainwin.geometry.maximized 1
 mainwin.geometry.w 1858
-mainwin.geometry.x 60
+mainwin.geometry.x 62
 mainwin.geometry.y 0
 mp3.id3v1_encoding iso8859-1
 mp3.id3v2_version 3
@@ -154,7 +154,7 @@ notify.format %b%
 notify.format_content %B - %t
 output_plugin PulseAudio output plugin
 playback.loop 1
-playback.order 1
+playback.order 0
 playback.volume 0.0000000
 playlist.column.00 "Album Art" "" 8 122 0 0 0 0 0
 playlist.column.01 "♫" "" 1 26 0 0 0 0 0
@@ -163,56 +163,60 @@ playlist.column.03 "Album" "%b" -1 346 0 0 0 0 0
 playlist.column.04 "Track" "%n" -1 53 1 0 0 0 0
 playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
-playlist.current 1
+playlist.current 24
 playlist.cursor.0 38
-playlist.cursor.1 28
-playlist.cursor.10 -1
-playlist.cursor.11 45
-playlist.cursor.12 62
-playlist.cursor.13 190
-playlist.cursor.14 42
-playlist.cursor.15 6
-playlist.cursor.16 263
-playlist.cursor.17 49
-playlist.cursor.18 3
-playlist.cursor.19 11
+playlist.cursor.1 4
+playlist.cursor.10 8
+playlist.cursor.11 3
+playlist.cursor.12 45
+playlist.cursor.13 62
+playlist.cursor.14 190
+playlist.cursor.15 42
+playlist.cursor.16 90
+playlist.cursor.17 20
+playlist.cursor.18 263
+playlist.cursor.19 86
 playlist.cursor.2 2
-playlist.cursor.20 3
+playlist.cursor.20 42
 playlist.cursor.21 3
-playlist.cursor.22 17
-playlist.cursor.23 0
+playlist.cursor.22 11
+playlist.cursor.23 3
+playlist.cursor.24 8
+playlist.cursor.25 7
 playlist.cursor.3 45
 playlist.cursor.4 97
-playlist.cursor.5 28
-playlist.cursor.6 119
+playlist.cursor.5 3
+playlist.cursor.6 116
 playlist.cursor.7 10
 playlist.cursor.8 128
-playlist.cursor.9 12
+playlist.cursor.9 23
 playlist.group_by %b
 playlist.scroll.0 80
 playlist.scroll.1 49
 playlist.scroll.10 0
-playlist.scroll.11 1176
-playlist.scroll.12 882
-playlist.scroll.13 6138
-playlist.scroll.14 2068
-playlist.scroll.15 565
-playlist.scroll.16 5795
-playlist.scroll.17 3557
-playlist.scroll.18 0
-playlist.scroll.19 0
+playlist.scroll.11 0
+playlist.scroll.12 1176
+playlist.scroll.13 882
+playlist.scroll.14 6134
+playlist.scroll.15 2068
+playlist.scroll.16 1095
+playlist.scroll.17 2901
+playlist.scroll.18 5795
+playlist.scroll.19 2926
 playlist.scroll.2 0
-playlist.scroll.20 322
+playlist.scroll.20 24
 playlist.scroll.21 0
 playlist.scroll.22 0
-playlist.scroll.23 0
+playlist.scroll.23 322
+playlist.scroll.24 2325
+playlist.scroll.25 0
 playlist.scroll.3 0
 playlist.scroll.4 0
-playlist.scroll.5 0
-playlist.scroll.6 0
+playlist.scroll.5 70
+playlist.scroll.6 2293
 playlist.scroll.7 0
 playlist.scroll.8 2503
-playlist.scroll.9 0
+playlist.scroll.9 296
 playlist.scroll.cursorfollowplayback 1
 playlist.scroll.followplayback 1
 playlist.stop_after_album_reset 1
@@ -229,30 +233,32 @@ playlist.tab.00007 Blade & Soul
 playlist.tab.00008 DJMax
 playlist.tab.00009 I've Girls Compilation
 playlist.tab.00010 Kajiura Yuki
-playlist.tab.00011 Ling toshite shigure
-playlist.tab.00012 Monogatari OST
-playlist.tab.00013 OST slow
-playlist.tab.00014 OST uptempo
-playlist.tab.00015 Random
-playlist.tab.00016 Sawano Hiroyuki
-playlist.tab.00017 Sound Online
-playlist.tab.00018 Tokyo Ghoul OST
-playlist.tab.00019 WCW
-playlist.tab.00020 XenobladeX
-playlist.tab.00021 Kikkawa Kouji
-playlist.tab.00022 Now Playing
-playlist.tab.00023 New Playlist
+playlist.tab.00011 Kikkawa Kouji
+playlist.tab.00012 Ling toshite shigure
+playlist.tab.00013 Monogatari OST
+playlist.tab.00014 OST slow
+playlist.tab.00015 OST uptempo
+playlist.tab.00016 Ragnarok Online
+playlist.tab.00017 Random
+playlist.tab.00018 Sawano Hiroyuki
+playlist.tab.00019 Sound Online
+playlist.tab.00020 Strike the Blood
+playlist.tab.00021 Tokyo Ghoul OST
+playlist.tab.00022 WCW
+playlist.tab.00023 XenobladeX
+playlist.tab.00024 Now Playing
+playlist.tab.00025 New Playlist
 prefwin.geometry.h 572
 prefwin.geometry.maximized 0
 prefwin.geometry.w 830
 prefwin.geometry.x 417
 prefwin.geometry.y 193
-replaygain_mode 1
+replaygain_mode 2
 replaygain_scale 1
-resume.paused 0
-resume.playlist 1
-resume.position 43.932346
-resume.track 28
+resume.paused 1
+resume.playlist 24
+resume.position 82.372497
+resume.track 8
 resume_last_session 1
 rg_control.order_linear 2
 rg_control.order_random 1

@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=2
+AnimationSpeed=0
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
