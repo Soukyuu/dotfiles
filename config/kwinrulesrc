@@ -4,7 +4,7 @@ blockcompositing=true
 blockcompositingrule=2
 ignoregeometry=true
 ignoregeometryrule=2
-screen=1
+screen=0
 screenrule=4
 title=mpv - Knights of Sidonia S2: The Ninth Planet Crusade - 09 - Duty
 titlematch=0
@@ -13,21 +13,13 @@ wmclasscomplete=false
 wmclassmatch=1
 
 [10]
-Description=Application settings for systemsettings
-clientmachine=localhost
-clientmachinematch=0
-screen=0
-screenrule=3
-wmclass=systemsettings5 systemsettings
-wmclasscomplete=true
-wmclassmatch=1
-
-[11]
 Description=Trillian Contact List
 clientmachine=takemikazuchi
 clientmachinematch=0
 position=3002,60
 positionrule=2
+screen[$d]
+screenrule[$d]
 size=200,530
 sizerule=2
 title=Contact List
@@ -37,7 +29,7 @@ wmclass=trillian
 wmclasscomplete=false
 wmclassmatch=1
 
-[12]
+[11]
 Description=Chromium
 clientmachine=takemikazuchi
 clientmachinematch=0
@@ -47,8 +39,14 @@ maximizehoriz=true
 maximizehorizrule=3
 maximizevert=true
 maximizevertrule=3
+position[$d]
+positionrule[$d]
 screen=0
 screenrule=3
+size[$d]
+sizerule[$d]
+title[$d]
+titlematch[$d]
 types=1
 windowrole=browser
 windowrolematch=1
@@ -56,50 +54,66 @@ wmclass=chromium
 wmclasscomplete=false
 wmclassmatch=1
 
-[13]
+[12]
 Description=Krdc
 clientmachine=takemikazuchi
 clientmachinematch=0
+ignoregeometry[$d]
+ignoregeometryrule[$d]
+maximizehoriz[$d]
+maximizehorizrule[$d]
+maximizevert[$d]
+maximizevertrule[$d]
 position=62,0
 positionrule=4
+screen[$d]
+screenrule[$d]
 title=rdp://azure@192.168.178.2 – KRDC
 titlematch=0
 types=1
+windowrole[$d]
+windowrolematch[$d]
 wmclass=krdc
 wmclasscomplete=false
 wmclassmatch=1
 
-[2]
-Description=deadbeef
-clientmachine=takemikazuchi
-clientmachinematch=0
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-title=DeaDBeeF
-titlematch=2
-types=1
-wmclass=deadbeef
-wmclasscomplete=false
-wmclassmatch=1
+[13]
+Description[$d]
+clientmachine[$d]
+clientmachinematch[$d]
+position[$d]
+positionrule[$d]
+title[$d]
+titlematch[$d]
+types[$d]
+wmclass[$d]
+wmclasscomplete[$d]
+wmclassmatch[$d]
 
-[3]
+[2]
 Description=Application settings for foobar2000
+below[$d]
+belowrule[$d]
 clientmachine=takemikazuchi
 clientmachinematch=0
 ignoregeometry=true
 ignoregeometryrule=2
+maximizehoriz[$d]
+maximizehorizrule[$d]
+maximizevert[$d]
+maximizevertrule[$d]
 screen=0
 screenrule=3
 title=foobar2000 v1.3.8
 titlematch=0
+type[$d]
+typerule[$d]
 types=1
 wmclass=foobar2000.exe wine
 wmclasscomplete=true
 wmclassmatch=1
 
-[4]
+[3]
 Description=Opera developer
 clientmachine=takemikazuchi
 clientmachinematch=0
@@ -111,16 +125,23 @@ screen=0
 screenrule=3
 title=Speed Dial - Opera
 titlematch=0
+types[$d]
 wmclass=opera developer
 wmclasscomplete=false
 wmclassmatch=1
 
-[5]
+[4]
 Description=Truecrypt systray
 clientmachine=takemikazuchi
 clientmachinematch=0
+ignoregeometry[$d]
+ignoregeometryrule[$d]
+noborder[$d]
+noborderrule[$d]
 position=55,1064
 positionrule=2
+screen[$d]
+screenrule[$d]
 skiptaskbar=false
 skiptaskbarrule=2
 title=systray icon
@@ -130,7 +151,7 @@ wmclass=truecrypt
 wmclasscomplete=false
 wmclassmatch=1
 
-[6]
+[5]
 Description=Truecrypt
 clientmachine=takemikazuchi
 clientmachinematch=0
@@ -138,6 +159,8 @@ position=392,83
 positionrule=4
 size=594,538
 sizerule=4
+skiptaskbar[$d]
+skiptaskbarrule[$d]
 title=TrueCrypt
 titlematch=1
 types=1
@@ -145,8 +168,12 @@ wmclass=truecrypt
 wmclasscomplete=false
 wmclassmatch=1
 
-[7]
+[6]
 Description=Application settings for asler
+clientmachine[$d]
+clientmachinematch[$d]
+position[$d]
+positionrule[$d]
 size=553,348
 sizerule=4
 title=ASLer v2.0.1.2
@@ -156,20 +183,22 @@ wmclass=asler
 wmclasscomplete=false
 wmclassmatch=1
 
-[8]
+[7]
 Description=Application settings for dolphin
 clientmachine=takemikazuchi
 clientmachinematch=0
-position=920,265
+position=455,190
 positionrule=4
-size=910,720
+size=1235,717
 sizerule=4
+title[$d]
+titlematch[$d]
 types=1
 wmclass=dolphin
 wmclasscomplete=false
 wmclassmatch=1
 
-[9]
+[8]
 Description=konversation
 clientmachine=localhost
 clientmachinematch=0
@@ -182,5 +211,20 @@ wmclass=konversation
 wmclasscomplete=false
 wmclassmatch=1
 
+[9]
+Description=Application settings for systemsettings
+clientmachine=localhost
+clientmachinematch=0
+position[$d]
+positionrule[$d]
+screen=0
+screenrule=3
+size[$d]
+sizerule[$d]
+types[$d]
+wmclass=systemsettings5 systemsettings
+wmclasscomplete=true
+wmclassmatch=1
+
 [General]
-count=13
+count=12

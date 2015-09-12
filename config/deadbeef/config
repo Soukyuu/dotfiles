@@ -24,14 +24,14 @@ converter.output_format 0
 converter.overwrite_action 1
 deadbeef_version devel
 ffmpeg.extensions aa3;oma;ac3;vqf;amr;tak
-filechooser.lastdir file:///home/azure/Music/Assumed%20Sounds/Strike%20the%20Blood%20Original%20Soundtrack%20Vol.%202
+filechooser.lastdir file:///home/azure/Music/Enigma/The%20Screen%20Behind%20The%20Mirror
 filechooser.playlist.lastdir file:///home/azure/Music/%5BPlaylists%5D
 global_preamp 0.0000000
 gtkui.action_separators 0
 gtkui.autoresize_columns 0
 gtkui.color.listview_playing_text 22102 39835 58596
 gtkui.color.listview_selection 22102 39835 58596
-gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"22","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"265","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"52","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"306","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"376","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"72","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"94","align":"2","color_override":"0","color":"#ff141312"}]
+gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"28","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"265","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"52","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"306","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"376","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"72","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"94","align":"2","color_override":"0","color":"#ff141312"}]
 gtkui.conf_dsp_preset Kave
 gtkui.custom_tray_icon deadbeef_tray_icon
 gtkui.delete_files_ask 1
@@ -42,7 +42,7 @@ gtkui.font.tabstrip_text Sans 9
 gtkui.hide_remove_from_disk 1
 gtkui.hide_tray_icon 1
 gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Battlestar Galactica.m3u8
-gtkui.layout.0.6.2 vsplitter pos=945 locked=0 {hsplitter pos=1370 locked=1 {playlist hideheaders=0 {} vsplitter pos=498 locked=1 {coverart {} vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } vsplitter pos=112 locked=1 {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
+gtkui.layout.0.6.2 vsplitter pos=922 locked=0 {hsplitter pos=1370 locked=1 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 {} placeholder {} } vsplitter pos=498 locked=1 {tabs active=0 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } tabs active=1 num_tabs=2 tab000="Visualization" tab001="Playlists" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
 gtkui.mmb_delete_playlist 1
 gtkui.name_playlist_from_folder 1
 gtkui.override_bar_colors 0
@@ -103,7 +103,7 @@ hotkeys_created 1
 ignore_archives 1
 junk.enable_cp1251_detection 1
 junk.enable_shift_jis_detection 1
-mainwin.geometry.h 860
+mainwin.geometry.h 1054
 mainwin.geometry.maximized 1
 mainwin.geometry.w 1858
 mainwin.geometry.x 62
@@ -163,60 +163,60 @@ playlist.column.03 "Album" "%b" -1 346 0 0 0 0 0
 playlist.column.04 "Track" "%n" -1 53 1 0 0 0 0
 playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
-playlist.current 24
+playlist.current 21
 playlist.cursor.0 38
 playlist.cursor.1 4
 playlist.cursor.10 8
 playlist.cursor.11 3
 playlist.cursor.12 45
-playlist.cursor.13 62
-playlist.cursor.14 190
+playlist.cursor.13 112
+playlist.cursor.14 50
 playlist.cursor.15 42
 playlist.cursor.16 90
-playlist.cursor.17 20
+playlist.cursor.17 6
 playlist.cursor.18 263
 playlist.cursor.19 86
-playlist.cursor.2 2
+playlist.cursor.2 4
 playlist.cursor.20 42
-playlist.cursor.21 3
+playlist.cursor.21 37
 playlist.cursor.22 11
-playlist.cursor.23 3
-playlist.cursor.24 8
+playlist.cursor.23 33
+playlist.cursor.24 -1
 playlist.cursor.25 7
 playlist.cursor.3 45
-playlist.cursor.4 97
-playlist.cursor.5 3
+playlist.cursor.4 100
+playlist.cursor.5 12
 playlist.cursor.6 116
 playlist.cursor.7 10
 playlist.cursor.8 128
-playlist.cursor.9 23
+playlist.cursor.9 13
 playlist.group_by %b
 playlist.scroll.0 80
 playlist.scroll.1 49
 playlist.scroll.10 0
 playlist.scroll.11 0
 playlist.scroll.12 1176
-playlist.scroll.13 882
-playlist.scroll.14 6134
+playlist.scroll.13 2002
+playlist.scroll.14 1988
 playlist.scroll.15 2068
 playlist.scroll.16 1095
-playlist.scroll.17 2901
+playlist.scroll.17 628
 playlist.scroll.18 5795
 playlist.scroll.19 2926
 playlist.scroll.2 0
 playlist.scroll.20 24
 playlist.scroll.21 0
 playlist.scroll.22 0
-playlist.scroll.23 322
-playlist.scroll.24 2325
+playlist.scroll.23 0
+playlist.scroll.24 0
 playlist.scroll.25 0
 playlist.scroll.3 0
-playlist.scroll.4 0
-playlist.scroll.5 70
+playlist.scroll.4 1735
+playlist.scroll.5 0
 playlist.scroll.6 2293
 playlist.scroll.7 0
 playlist.scroll.8 2503
-playlist.scroll.9 296
+playlist.scroll.9 0
 playlist.scroll.cursorfollowplayback 1
 playlist.scroll.followplayback 1
 playlist.stop_after_album_reset 1
@@ -247,7 +247,6 @@ playlist.tab.00021 Tokyo Ghoul OST
 playlist.tab.00022 WCW
 playlist.tab.00023 XenobladeX
 playlist.tab.00024 Now Playing
-playlist.tab.00025 New Playlist
 prefwin.geometry.h 572
 prefwin.geometry.maximized 0
 prefwin.geometry.w 830
@@ -255,10 +254,10 @@ prefwin.geometry.x 417
 prefwin.geometry.y 193
 replaygain_mode 2
 replaygain_scale 1
-resume.paused 1
-resume.playlist 24
-resume.position 82.372497
-resume.track 8
+resume.paused 0
+resume.playlist 21
+resume.position -1.000000
+resume.track -1
 resume_last_session 1
 rg_control.order_linear 2
 rg_control.order_random 1
