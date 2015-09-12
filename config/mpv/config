@@ -17,7 +17,7 @@ vo = opengl-hq:interpolation:scaler-resizes-only
 
 vf = vapoursynth=/home/azure/.config/mpv/scripts/mv_interpolation.py
 
-display-fps = 60
+#display-fps = 60
 
 autofit-larger = 90%x90%
 #no-border

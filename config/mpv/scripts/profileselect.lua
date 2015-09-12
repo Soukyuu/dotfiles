@@ -98,15 +98,18 @@ vo_opts[hdtv] = {
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",
-    --["gamma"]               = "0.9338",
     ["scaler-resizes-only"] = "",
     ["sigmoid-upscaling"]   = "",
     ["interpolation"]       = "",
 
     ["fancy-downscaling"] = "",
-    ["source-shader"]     = "~~/shaders/deband.glsl",
     ["temporal-dither"]   = "",
     ["pbo"] = "",
+
+    ["deband"] = "",
+    ["deband-threshold"] = "64",
+    ["deband-range"]     = "8",
+    ["deband-grain"]     = "48",
 }
 
 vo_opts[hdbd] = {
@@ -119,15 +122,18 @@ vo_opts[hdbd] = {
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",
-    --["gamma"]               = "0.9338",
     ["scaler-resizes-only"] = "",
     ["sigmoid-upscaling"]   = "",
     ["interpolation"]       = "",
 
     ["fancy-downscaling"] = "",
-    ["source-shader"]     = "~~/shaders/deband.glsl",
     ["temporal-dither"]   = "",
     ["pbo"] = "",
+
+    ["deband"] = "",
+    ["deband-threshold"] = "64",
+    ["deband-range"]     = "16",
+    ["deband-grain"]     = "24",
 }
 
 vo_opts[hs] = {
@@ -145,11 +151,13 @@ vo_opts[hs] = {
     ["interpolation"]       = "",
 
     ["fancy-downscaling"] = "",
-    ["source-shader"]     = "~~/shaders/deband_high.glsl",
-    --["icc-cache-dir"]     = "~~/icc-cache",
-    --["3dlut-size"]        = "256x256x256",
     ["temporal-dither"]   = "",
     ["pbo"] = "",
+    
+    ["deband"] = "",
+    ["deband-threshold"] = "100",
+    ["deband-range"]     = "8",
+    ["deband-grain"]     = "48",
 }
 
 vo_opts[sd] = {
@@ -160,7 +168,6 @@ vo_opts[sd] = {
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",
-    --["gamma"]               = "0.9338",
     ["scaler-resizes-only"] = "",
     ["sigmoid-upscaling"]   = "",
     ["interpolation"]       = "",
