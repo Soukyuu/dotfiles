@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=2.1.5
+Name=CUERipper
+Comment=Secure CD audio ripper
+Exec=LANG=ja_JP.UTF-8 WINEPREFIX=/home/azure/.wine32 wine "/mnt/windata/Program Files/CUETools/CUERipper.exe"
+Icon=/usr/share/icons/breeze/devices/sidebars/media-optical.svg
+Terminal=false
+Categories=AudioVideo;Audio

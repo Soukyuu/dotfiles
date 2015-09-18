@@ -78,6 +78,12 @@
     ~/.local/share/konversation/scripts/np:
         path: local/share/konversation/scripts/np
         create: true
+    ~/.local/share/applications/cuetools.desktop:
+        path: local/share/applications/cuetools.desktop
+        create: true
+    ~/.local/share/applications/cueripper.desktop:
+        path: local/share/applications/cueripper.desktop
+        create: true
     ~/.photoqt:
         path: photoqt/
         create: true
