@@ -18,6 +18,9 @@ date
 disc
 discnumber
 encodedby
+encoder
+encoder_options
+encoding
 encodingsettings
 encodingtime
 filename

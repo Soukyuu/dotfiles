@@ -7,6 +7,7 @@ core = vs.get_core()
 clip = video_in
 
 dst_fps = display_fps
+#dst_fps = 60
 # Interpolating to fps higher than 60 is too CPU-expensive, smoothmotion can handle the rest.
 while (dst_fps > 60):
     dst_fps /= 2

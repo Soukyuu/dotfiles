@@ -102,7 +102,7 @@ vo_opts[hdtv] = {
     ["sigmoid-upscaling"]   = "",
     ["interpolation"]       = "",
 
-    ["fancy-downscaling"] = "",
+    ["correct-downscaling"] = "",
     ["temporal-dither"]   = "",
     ["pbo"] = "",
 
@@ -110,6 +110,8 @@ vo_opts[hdtv] = {
     ["deband-threshold"] = "64",
     ["deband-range"]     = "8",
     ["deband-grain"]     = "48",
+
+    ["waitvsync"] = "",
 }
 
 vo_opts[hdbd] = {
@@ -126,7 +128,7 @@ vo_opts[hdbd] = {
     ["sigmoid-upscaling"]   = "",
     ["interpolation"]       = "",
 
-    ["fancy-downscaling"] = "",
+    ["correct-downscaling"] = "",
     ["temporal-dither"]   = "",
     ["pbo"] = "",
 
@@ -134,15 +136,18 @@ vo_opts[hdbd] = {
     ["deband-threshold"] = "64",
     ["deband-range"]     = "16",
     ["deband-grain"]     = "24",
+
+    ["waitvsync"] = "",
 }
 
 vo_opts[hs] = {
-    ["scale"]  = "ewa_lanczossharp",
-    ["cscale"] = "ewa_lanczossoft",
+    ["scale"]  = "ewa_lanczos",
+    ["cscale"] = "ewa_lanczos",
     ["dscale"] = "mitchell",
     ["tscale"] = "oversample",
     ["scale-antiring"]  = "0.8",
     ["cscale-antiring"] = "0.9",
+    ["scale-radius"] = "1.5",
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",
@@ -150,7 +155,7 @@ vo_opts[hs] = {
     ["sigmoid-upscaling"]   = "",
     ["interpolation"]       = "",
 
-    ["fancy-downscaling"] = "",
+    ["correct-downscaling"] = "",
     ["temporal-dither"]   = "",
     ["pbo"] = "",
     
@@ -158,6 +163,8 @@ vo_opts[hs] = {
     ["deband-threshold"] = "100",
     ["deband-range"]     = "8",
     ["deband-grain"]     = "48",
+
+    ["waitvsync"] = "",
 }
 
 vo_opts[sd] = {

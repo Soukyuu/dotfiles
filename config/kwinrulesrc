@@ -2,8 +2,8 @@
 Description=mpv
 blockcompositing=true
 blockcompositingrule=2
-ignoregeometry=true
-ignoregeometryrule=2
+ignoregeometry[$d]
+ignoregeometryrule[$d]
 screen=0
 screenrule=4
 title=mpv - Knights of Sidonia S2: The Ninth Planet Crusade - 09 - Duty
@@ -55,6 +55,29 @@ wmclasscomplete=false
 wmclassmatch=1
 
 [12]
+Description=Settings for Vivaldi-snapshot
+clientmachine=takemikazuchi
+clientmachinematch=0
+ignoregeometry=true
+ignoregeometryrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+position[$d]
+positionrule[$d]
+screen=0
+screenrule=3
+title=Speed Dial
+titlematch=0
+types=1
+windowrole=app
+windowrolematch=1
+wmclass=vivaldi-snapshot
+wmclasscomplete=false
+wmclassmatch=1
+
+[13]
 Description=Krdc
 clientmachine=takemikazuchi
 clientmachinematch=0
@@ -77,7 +100,7 @@ wmclass=krdc
 wmclasscomplete=false
 wmclassmatch=1
 
-[13]
+[14]
 Description[$d]
 clientmachine[$d]
 clientmachinematch[$d]
@@ -96,6 +119,10 @@ below[$d]
 belowrule[$d]
 clientmachine=takemikazuchi
 clientmachinematch=0
+disableglobalshortcuts[$d]
+disableglobalshortcutsrule[$d]
+fullscreen[$d]
+fullscreenrule[$d]
 ignoregeometry=true
 ignoregeometryrule=2
 maximizehoriz[$d]
@@ -157,7 +184,7 @@ clientmachine=takemikazuchi
 clientmachinematch=0
 position=392,83
 positionrule=4
-size=594,538
+size=618,538
 sizerule=4
 skiptaskbar[$d]
 skiptaskbarrule[$d]
@@ -187,16 +214,16 @@ wmclassmatch=1
 Description=Application settings for dolphin
 clientmachine=takemikazuchi
 clientmachinematch=0
-position=455,190
+position=362,114
 positionrule=4
-size=1235,717
+size=1238,770
 sizerule=4
 title[$d]
 titlematch[$d]
 types=1
 wmclass=dolphin
 wmclasscomplete=false
-wmclassmatch=1
+wmclassmatch=2
 
 [8]
 Description=konversation
@@ -227,4 +254,4 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=12
+count=13

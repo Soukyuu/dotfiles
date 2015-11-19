@@ -16,16 +16,16 @@ artwork.scaled.cache_reset_time 1431818644
 cli_add_playlist_name Now Playing
 cli_add_to_specific_playlist 1
 converter.dsp_preset -1
-converter.encoder_preset 13
+converter.encoder_preset 9
 converter.lastdir file:///tmp
-converter.output_file %a - %t
-converter.output_folder /tmp/test2
-converter.output_format 0
+converter.output_file %track%. %title%
+converter.output_folder /tmp/bsg4-1
+converter.output_format 2
 converter.overwrite_action 1
 deadbeef_version devel
 ffmpeg.extensions aa3;oma;ac3;vqf;amr;tak
-filechooser.lastdir file:///home/azure/Music/Enigma/The%20Screen%20Behind%20The%20Mirror
-filechooser.playlist.lastdir file:///home/azure/Music/%5BPlaylists%5D
+filechooser.lastdir file:///home/azure/Music/Hayashi%20Yuuki/Death%20Parade%20OST
+filechooser.playlist.lastdir file:///home/azure/Music/%5BPlaylists%5D/arch_tmz
 global_preamp 0.0000000
 gtkui.action_separators 0
 gtkui.autoresize_columns 0
@@ -41,8 +41,8 @@ gtkui.eq.visible 0
 gtkui.font.tabstrip_text Sans 9
 gtkui.hide_remove_from_disk 1
 gtkui.hide_tray_icon 1
-gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Battlestar Galactica.m3u8
-gtkui.layout.0.6.2 vsplitter pos=922 locked=0 {hsplitter pos=1370 locked=1 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 {} placeholder {} } vsplitter pos=498 locked=1 {tabs active=0 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter pos=25 locked=1 {hsplitter pos=139 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } tabs active=1 num_tabs=2 tab000="Visualization" tab001="Playlists" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
+gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Strike the Blood.m3u8
+gtkui.layout.0.6.2 vsplitter pos=934 locked=0 {hsplitter pos=1341 locked=1 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 {} placeholder {} } vsplitter pos=527 locked=1 {tabs active=0 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter pos=25 locked=1 {hsplitter pos=157 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } tabs active=1 num_tabs=2 tab000="Visualization" tab001="Playlists" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
 gtkui.mmb_delete_playlist 1
 gtkui.name_playlist_from_folder 1
 gtkui.override_bar_colors 0
@@ -154,7 +154,7 @@ notify.format %b%
 notify.format_content %B - %t
 output_plugin PulseAudio output plugin
 playback.loop 1
-playback.order 0
+playback.order 1
 playback.volume 0.0000000
 playlist.column.00 "Album Art" "" 8 122 0 0 0 0 0
 playlist.column.01 "♫" "" 1 26 0 0 0 0 0
@@ -163,59 +163,59 @@ playlist.column.03 "Album" "%b" -1 346 0 0 0 0 0
 playlist.column.04 "Track" "%n" -1 53 1 0 0 0 0
 playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
-playlist.current 21
-playlist.cursor.0 38
+playlist.current 1
+playlist.cursor.0 36
 playlist.cursor.1 4
 playlist.cursor.10 8
 playlist.cursor.11 3
-playlist.cursor.12 45
-playlist.cursor.13 112
-playlist.cursor.14 50
-playlist.cursor.15 42
-playlist.cursor.16 90
-playlist.cursor.17 6
+playlist.cursor.12 2
+playlist.cursor.13 2
+playlist.cursor.14 67
+playlist.cursor.15 6
+playlist.cursor.16 82
+playlist.cursor.17 10
 playlist.cursor.18 263
 playlist.cursor.19 86
 playlist.cursor.2 4
-playlist.cursor.20 42
+playlist.cursor.20 0
 playlist.cursor.21 37
 playlist.cursor.22 11
-playlist.cursor.23 33
+playlist.cursor.23 34
 playlist.cursor.24 -1
-playlist.cursor.25 7
+playlist.cursor.25 26
 playlist.cursor.3 45
-playlist.cursor.4 100
-playlist.cursor.5 12
-playlist.cursor.6 116
-playlist.cursor.7 10
-playlist.cursor.8 128
+playlist.cursor.4 49
+playlist.cursor.5 44
+playlist.cursor.6 102
+playlist.cursor.7 25
+playlist.cursor.8 179
 playlist.cursor.9 13
 playlist.group_by %b
-playlist.scroll.0 80
+playlist.scroll.0 0
 playlist.scroll.1 49
 playlist.scroll.10 0
 playlist.scroll.11 0
-playlist.scroll.12 1176
-playlist.scroll.13 2002
-playlist.scroll.14 1988
-playlist.scroll.15 2068
-playlist.scroll.16 1095
-playlist.scroll.17 628
+playlist.scroll.12 560
+playlist.scroll.13 0
+playlist.scroll.14 2580
+playlist.scroll.15 0
+playlist.scroll.16 1141
+playlist.scroll.17 425
 playlist.scroll.18 5795
 playlist.scroll.19 2926
 playlist.scroll.2 0
-playlist.scroll.20 24
+playlist.scroll.20 0
 playlist.scroll.21 0
 playlist.scroll.22 0
 playlist.scroll.23 0
-playlist.scroll.24 0
-playlist.scroll.25 0
+playlist.scroll.24 271
+playlist.scroll.25 448
 playlist.scroll.3 0
-playlist.scroll.4 1735
-playlist.scroll.5 0
-playlist.scroll.6 2293
+playlist.scroll.4 640
+playlist.scroll.5 124
+playlist.scroll.6 1570
 playlist.scroll.7 0
-playlist.scroll.8 2503
+playlist.scroll.8 3783
 playlist.scroll.9 0
 playlist.scroll.cursorfollowplayback 1
 playlist.scroll.followplayback 1
@@ -247,15 +247,16 @@ playlist.tab.00021 Tokyo Ghoul OST
 playlist.tab.00022 WCW
 playlist.tab.00023 XenobladeX
 playlist.tab.00024 Now Playing
+playlist.tab.00025 New Playlist
 prefwin.geometry.h 572
 prefwin.geometry.maximized 0
 prefwin.geometry.w 830
 prefwin.geometry.x 417
 prefwin.geometry.y 193
-replaygain_mode 2
+replaygain_mode 1
 replaygain_scale 1
 resume.paused 0
-resume.playlist 21
+resume.playlist 24
 resume.position -1.000000
 resume.track -1
 resume_last_session 1
