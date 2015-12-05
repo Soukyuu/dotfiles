@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 #
-# Version 1.5
+# Version 1.6
 
 ### USAGE:
 # dolphin-folder-color.sh <ICON_NAME> [PATH1] [PATH2] ...
@@ -23,20 +23,22 @@
 #########################################################################
 
 shopt -s extglob
+shopt -s expand_aliases
+
 icon=${1:?'Name or color icon is not present'} ; shift
 desktopEntry='.directory'
 
 ${TMPDIR:="/tmp"}
 tmp=$TMPDIR/$desktopEntry-$PPID
 
-if which kf5-config &>/dev/null ; then
+if which kiconfinder5 &>/dev/null ; then
 	alias kiconfinder="kiconfinder5"
 fi
 
 case $icon in
-	default | black  | blue   | brown    |\
-	cyan    | green  | grey   | orange   |\
-	red     | violet | yellow |\
+	default | black   | blue   | brown    |\
+	cyan    | green   | grey   | orange   |\
+	red     | magenta | violet | yellow   |\
 	bookmark   | remote | tar   | sound  |\
 	temp | txt | text   | video | videos |\
 	activities | development  | documents    | html   |\
@@ -111,14 +113,14 @@ reloaded=false
 
 for pid in $(pidof "dolphin") ; do
 	if [ $pid = $PPID ] ; then
-		qdbus $service$PPID $method &> /dev/null
+		qdbus $service$PPID $method &> /dev/null & disown -h
 		reloaded=true
 	fi
 done
 
 if ! $reloaded ; then
 	for pid in $(pidof "dolphin") ; do
-		qdbus $service$pid $method &> /dev/null
+		qdbus $service$pid $method &> /dev/null & disown -h
 	done
 fi
 ###

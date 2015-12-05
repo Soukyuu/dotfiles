@@ -89,12 +89,13 @@ vo = {
 }
 
 vo_opts[hdtv] = {
-    ["scale"]  = "ewa_lanczossharp",
+--    ["scale"]  = "ewa_lanczossharp",
     ["cscale"] = "ewa_lanczossoft",
     ["dscale"] = "mitchell",
     ["tscale"] = "oversample",
     ["scale-antiring"]  = "0.8",
     ["cscale-antiring"] = "0.9",
+--    ["scale-radius"] = "1.5",
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",
@@ -115,12 +116,13 @@ vo_opts[hdtv] = {
 }
 
 vo_opts[hdbd] = {
-    ["scale"]  = "ewa_lanczossharp",
+--    ["scale"]  = "ewa_lanczossharp",
     ["cscale"] = "ewa_lanczossoft",
     ["dscale"] = "mitchell",
     ["tscale"] = "oversample",
     ["scale-antiring"]  = "0.8",
     ["cscale-antiring"] = "0.9",
+--    ["scale-radius"] = "1.5",
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",
@@ -141,13 +143,13 @@ vo_opts[hdbd] = {
 }
 
 vo_opts[hs] = {
-    ["scale"]  = "ewa_lanczos",
+--    ["scale"]  = "ewa_lanczos",
     ["cscale"] = "ewa_lanczos",
     ["dscale"] = "mitchell",
     ["tscale"] = "oversample",
     ["scale-antiring"]  = "0.8",
     ["cscale-antiring"] = "0.9",
-    ["scale-radius"] = "1.5",
+--    ["scale-radius"] = "1.5",
 
     ["dither-depth"]        = "auto",
     ["target-prim"]         = "bt.709",

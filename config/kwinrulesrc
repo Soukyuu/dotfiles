@@ -214,9 +214,9 @@ wmclassmatch=1
 Description=Application settings for dolphin
 clientmachine=takemikazuchi
 clientmachinematch=0
-position=362,114
+position=501,213
 positionrule=4
-size=1238,770
+size=1042,684
 sizerule=4
 title[$d]
 titlematch[$d]

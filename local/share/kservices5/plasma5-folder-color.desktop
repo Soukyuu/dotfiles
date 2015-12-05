@@ -2,7 +2,7 @@
 Name=Folder Color
 
 Encoding=UTF-8
-Version=1.5
+Version=1.6
 Icon=folder-cyan
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
@@ -15,9 +15,10 @@ X-KDE-Submenu[it]=Cartella colori
 X-KDE-Submenu[pt]=Pasta Cor
 X-KDE-Submenu[pt_BR]=Cor da pasta
 X-KDE-Submenu[de]=Farbe Ordner
+X-KDE-Submenu[pl]=Kolor katalogu
 X-KDE-Priority=TopLevel
 
-Actions=custom-icon;_SEPARATOR_;folder-default;folder-grey;folder-yellow;folder-cyan;folder-blue;folder-green;folder-orange;folder-red;folder-violet;folder-brown;folder-black;_SEPARATOR_;user-home;folder-documents;folder-download;folder-images;folder-sound;folder-videos;folder-text;folder-network;folder-development;folder-bookmark;folder-favorites;
+Actions=custom-icon;_SEPARATOR_;folder-default;folder-grey;folder-yellow;folder-cyan;folder-blue;folder-green;folder-orange;folder-red;folder-magenta;folder-violet;folder-brown;folder-black;_SEPARATOR_;user-home;folder-documents;folder-download;folder-images;folder-sound;folder-videos;folder-text;folder-network;folder-development;folder-bookmark;folder-favorites;
 
 [Desktop Action custom-icon]
 Name=Custom icon
@@ -27,7 +28,9 @@ Name[it]=Icona Personalizzata
 Name[pt]=Ícone personalizado
 Name[pt_BR]=Ícone personalizado
 Name[de]=Custom Icon
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh custom %U
+Name[pl]=Personalizacja ikon
+Icon=colors-chromared
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh custom %U
 
 #########################################
 
@@ -39,8 +42,9 @@ Name[it]=Difetto
 Name[pt]=Omissão
 Name[pt_BR]=Padrão
 Name[de]=Default
+Name[pl]=Domyślny
 Icon=folder
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh default %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh default %U
 
 [Desktop Action folder-grey]
 Name=Grey
@@ -50,8 +54,9 @@ Name[it]=Grigio
 Name[pt]=Cinzento
 Name[pt_BR]=Cinza
 Name[de]=Grau
+Name[pl]=Szary
 Icon=folder-grey
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh grey %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh grey %U
 
 [Desktop Action folder-yellow]
 Name=Yellow
@@ -61,8 +66,9 @@ Name[it]=Giallo
 Name[pt]=Amarelo
 Name[pt_BR]=Amarela
 Name[de]=Gelb
+Name[pl]=Żółty
 Icon=folder-yellow
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh yellow %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh yellow %U
 
 [Desktop Action folder-cyan]
 Name=Cyan
@@ -72,8 +78,9 @@ Name[it]=Ciano
 Name[pt]=Ciano
 Name[pt_BR]=Ciano
 Name[de]=Cyan
+Name[pl]=Cyjan
 Icon=folder-cyan
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh cyan %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh cyan %U
 
 [Desktop Action folder-blue]
 Name=Blue
@@ -83,8 +90,9 @@ Name[it]=Blu
 Name[pt]=Azul
 Name[pt_BR]=Azul
 Name[de]=Blau
+Name[pl]=Niebieski
 Icon=folder-blue
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh blue %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh blue %U
 
 [Desktop Action folder-green]
 Name=Green
@@ -94,8 +102,9 @@ Name[it]=Verde
 Name[pt]=Verde
 Name[pt_BR]=Verde
 Name[de]=Grün
+Name[pl]=Zielony
 Icon=folder-green
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh green %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh green %U
 
 [Desktop Action folder-orange]
 Name=Orange
@@ -105,8 +114,9 @@ Name[it]=Arancione
 Name[pt]=Laranja
 Name[pt_BR]=Laranja
 Name[de]=Orange
+Name[pl]=Pomarańczowy
 Icon=folder-orange
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh orange %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh orange %U
 
 [Desktop Action folder-red]
 Name=Red
@@ -116,8 +126,21 @@ Name[it]=Rosso
 Name[pt]=Vermelho
 Name[pt_BR]=Vermelha
 Name[de]=Rot
+Name[pl]=Czerwony
 Icon=folder-red
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh red %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh red %U
+
+[Desktop Action folder-magenta]
+Name=Magenta
+Name[es]=Magenta
+Name[fr]=Magenta
+Name[it]=Magenta
+Name[pt]=Magenta
+Name[pt_BR]=Magenta
+Name[de]=Magenta
+Name[pl]=Fuksyna
+Icon=folder-magenta
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh magenta %U
 
 [Desktop Action folder-violet]
 Name=Violet
@@ -127,8 +150,9 @@ Name[it]=Viola
 Name[pt]=Violeta
 Name[pt_BR]=Violeta
 Name[de]=Violett
+Name[pl]=Fioletowy
 Icon=folder-violet
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh violet %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh violet %U
 
 [Desktop Action folder-brown]
 Name=Brown
@@ -138,8 +162,9 @@ Name[it]=Marrone
 Name[pt]=Marrom
 Name[pt_BR]=Marrom
 Name[de]=Braun
+Name[pl]=Brązowy
 Icon=folder-brown
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh brown %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh brown %U
 
 [Desktop Action folder-black]
 Name=Black
@@ -149,8 +174,9 @@ Name[it]=Nero
 Name[pt]=Preto
 Name[pt_BR]=Preta
 Name[de]=Schwarz
+Name[pl]=Czarny
 Icon=folder-black
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh black %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh black %U
 
 #########################################
 
@@ -162,8 +188,9 @@ Name[it]=Home
 Name[pt]=Home
 Name[pt_BR]=Home
 Name[de]=Home
+Name[pl]=Katalog domowy
 Icon=user-home
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh user-home %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh user-home %U
 
 [Desktop Action folder-documents]
 Name=Documents
@@ -173,8 +200,9 @@ Name[it]=Documentazione
 Name[pt]=Documentos
 Name[pt_BR]=Documentos
 Name[de]=Unterlagen
+Name[pl]=Dokumenty
 Icon=folder-documents
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh documents %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh documents %U
 
 [Desktop Action folder-download]
 Name=Downloads
@@ -184,8 +212,9 @@ Name[it]=Download
 Name[pt]=Download
 Name[pt_BR]=Downloads
 Name[de]=Downloads
+Name[pl]=Pobrane
 Icon=folder-download
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh download %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh download %U
 
 [Desktop Action folder-images]
 Name=Image
@@ -195,8 +224,9 @@ Name[it]=Immagine
 Name[pt]=Imagem
 Name[pt_BR]=Imagens
 Name[de]=Bild
+Name[pl]=Obrazy
 Icon=folder-images
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh images %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh images %U
 
 [Desktop Action folder-sound]
 Name=Sound
@@ -206,8 +236,9 @@ Name[it]=Suono
 Name[pt]=Parecer
 Name[pt_BR]=Áudio
 Name[de]=Klingen
+Name[pl]=Muzyka
 Icon=folder-sound
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh sound %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh sound %U
 
 [Desktop Action folder-videos]
 Name=Video
@@ -217,8 +248,9 @@ Name[it]=Video
 Name[pt]=Vídeo
 Name[pt_BR]=Vídeo
 Name[de]=Video
+Name[pl]=Wideo
 Icon=folder-videos
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh videos %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh videos %U
 
 [Desktop Action folder-text]
 Name=Text
@@ -228,8 +260,9 @@ Name[it]=Testo
 Name[pt]=Texto
 Name[pt_BR]=Texto
 name[de]=Text
+name[pl]=Tekst
 Icon=folder-text
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh text %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh text %U
 
 [Desktop Action folder-network]
 Name=Network
@@ -239,8 +272,9 @@ Name[it]=Rete
 Name[pt]=Rede
 Name[pt_BR]=Rede
 Name[de]=Netzwerk
+Name[pl]=Sieć
 Icon=folder-network
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh network %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh network %U
 
 [Desktop Action folder-development]
 Name=Development
@@ -250,8 +284,9 @@ Name[it]=Sviluppo
 Name[pt]=Desenvolvimento
 Name[pt_BR]=Desenvolvimento
 Name[de]=Entwicklung
+Name[pl]=Programowanie
 Icon=folder-development
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh development %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh development %U
 
 [Desktop Action folder-bookmark]
 Name=Bookmark
@@ -261,8 +296,9 @@ Name[it]=Bookmark
 Name[pt]=Bookmark
 Name[pt_BR]=Marcador
 Name[de]=Bookmark
+Name[pl]=Zakładki
 Icon=folder-bookmark
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh bookmark %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh bookmark %U
 
 [Desktop Action folder-favorites]
 Name=Favorites
@@ -272,5 +308,6 @@ Name[it]=Preferiti
 Name[pt]=Favoritos
 Name[pt_BR]=Favoritos
 Name[de]=Favoriten
+Name[pl]=Ulubione
 Icon=folder-favorites
-Exec=/home/azure/.local/share/kservices5/dolphin-folder-color.sh favorites %U
+Exec=/home/azure/.dotfiles/local/share/kservices5/dolphin-folder-color.sh favorites %U

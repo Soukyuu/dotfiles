@@ -1,2 +1,2 @@
-sudo umount /mnt/btrfs-root
+sudo umount /mnt/btrfs-archive
 sudo cryptsetup close archive

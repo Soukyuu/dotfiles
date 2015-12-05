@@ -16,23 +16,23 @@ artwork.scaled.cache_reset_time 1431818644
 cli_add_playlist_name Now Playing
 cli_add_to_specific_playlist 1
 converter.dsp_preset -1
-converter.encoder_preset 9
+converter.encoder_preset 15
 converter.lastdir file:///tmp
-converter.output_file %track%. %title%
-converter.output_folder /tmp/bsg4-1
-converter.output_format 2
+converter.output_file %n. %t
+converter.output_folder /tmp/ubwost2
+converter.output_format 0
 converter.overwrite_action 1
 deadbeef_version devel
 ffmpeg.extensions aa3;oma;ac3;vqf;amr;tak
-filechooser.lastdir file:///home/azure/Music/Hayashi%20Yuuki/Death%20Parade%20OST
+filechooser.lastdir file:///home/azure/Music/Jeremy%20Soule/Guild%20Wars%202%20OST
 filechooser.playlist.lastdir file:///home/azure/Music/%5BPlaylists%5D/arch_tmz
 global_preamp 0.0000000
 gtkui.action_separators 0
 gtkui.autoresize_columns 0
 gtkui.color.listview_playing_text 22102 39835 58596
 gtkui.color.listview_selection 22102 39835 58596
-gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"28","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"265","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"52","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"306","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"376","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"72","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"94","align":"2","color_override":"0","color":"#ff141312"}]
-gtkui.conf_dsp_preset Kave
+gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"28","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"236","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"52","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"363","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"301","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"72","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"111","align":"2","color_override":"0","color":"#ff141312"}]
+gtkui.conf_dsp_preset Speakers
 gtkui.custom_tray_icon deadbeef_tray_icon
 gtkui.delete_files_ask 1
 gtkui.disable_seekbar_overlay 0
@@ -42,7 +42,7 @@ gtkui.font.tabstrip_text Sans 9
 gtkui.hide_remove_from_disk 1
 gtkui.hide_tray_icon 1
 gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Strike the Blood.m3u8
-gtkui.layout.0.6.2 vsplitter pos=934 locked=0 {hsplitter pos=1341 locked=1 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 {} placeholder {} } vsplitter pos=527 locked=1 {tabs active=0 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter pos=25 locked=1 {hsplitter pos=157 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } tabs active=1 num_tabs=2 tab000="Visualization" tab001="Playlists" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
+gtkui.layout.0.6.2 vsplitter pos=914 locked=0 {hsplitter pos=1341 locked=1 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 {} placeholder {} } vsplitter pos=527 locked=1 {tabs active=0 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter pos=25 locked=1 {hsplitter pos=157 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } tabs active=1 num_tabs=2 tab000="Visualization" tab001="Playlists" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
 gtkui.mmb_delete_playlist 1
 gtkui.name_playlist_from_folder 1
 gtkui.override_bar_colors 0
@@ -103,10 +103,10 @@ hotkeys_created 1
 ignore_archives 1
 junk.enable_cp1251_detection 1
 junk.enable_shift_jis_detection 1
-mainwin.geometry.h 1054
+mainwin.geometry.h 811
 mainwin.geometry.maximized 1
-mainwin.geometry.w 1858
-mainwin.geometry.x 62
+mainwin.geometry.w 1770
+mainwin.geometry.x 146
 mainwin.geometry.y 0
 mp3.id3v1_encoding iso8859-1
 mp3.id3v2_version 3
@@ -163,60 +163,60 @@ playlist.column.03 "Album" "%b" -1 346 0 0 0 0 0
 playlist.column.04 "Track" "%n" -1 53 1 0 0 0 0
 playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
-playlist.current 1
-playlist.cursor.0 36
-playlist.cursor.1 4
+playlist.current 18
+playlist.cursor.0 14
+playlist.cursor.1 39
 playlist.cursor.10 8
 playlist.cursor.11 3
-playlist.cursor.12 2
-playlist.cursor.13 2
-playlist.cursor.14 67
-playlist.cursor.15 6
+playlist.cursor.12 46
+playlist.cursor.13 0
+playlist.cursor.14 188
+playlist.cursor.15 82
 playlist.cursor.16 82
 playlist.cursor.17 10
-playlist.cursor.18 263
+playlist.cursor.18 31
 playlist.cursor.19 86
 playlist.cursor.2 4
-playlist.cursor.20 0
-playlist.cursor.21 37
+playlist.cursor.20 39
+playlist.cursor.21 25
 playlist.cursor.22 11
 playlist.cursor.23 34
-playlist.cursor.24 -1
+playlist.cursor.24 2
 playlist.cursor.25 26
-playlist.cursor.3 45
+playlist.cursor.3 6
 playlist.cursor.4 49
 playlist.cursor.5 44
 playlist.cursor.6 102
-playlist.cursor.7 25
+playlist.cursor.7 20
 playlist.cursor.8 179
-playlist.cursor.9 13
+playlist.cursor.9 8
 playlist.group_by %b
-playlist.scroll.0 0
-playlist.scroll.1 49
+playlist.scroll.0 183
+playlist.scroll.1 103
 playlist.scroll.10 0
 playlist.scroll.11 0
-playlist.scroll.12 560
+playlist.scroll.12 1133
 playlist.scroll.13 0
-playlist.scroll.14 2580
-playlist.scroll.15 0
+playlist.scroll.14 5375
+playlist.scroll.15 3569
 playlist.scroll.16 1141
-playlist.scroll.17 425
-playlist.scroll.18 5795
+playlist.scroll.17 0
+playlist.scroll.18 281
 playlist.scroll.19 2926
 playlist.scroll.2 0
-playlist.scroll.20 0
+playlist.scroll.20 97
 playlist.scroll.21 0
 playlist.scroll.22 0
 playlist.scroll.23 0
-playlist.scroll.24 271
+playlist.scroll.24 0
 playlist.scroll.25 448
-playlist.scroll.3 0
+playlist.scroll.3 87
 playlist.scroll.4 640
 playlist.scroll.5 124
 playlist.scroll.6 1570
 playlist.scroll.7 0
 playlist.scroll.8 3783
-playlist.scroll.9 0
+playlist.scroll.9 825
 playlist.scroll.cursorfollowplayback 1
 playlist.scroll.followplayback 1
 playlist.stop_after_album_reset 1
@@ -256,9 +256,9 @@ prefwin.geometry.y 193
 replaygain_mode 1
 replaygain_scale 1
 resume.paused 0
-resume.playlist 24
-resume.position -1.000000
-resume.track -1
+resume.playlist 18
+resume.position 221.45455
+resume.track 31
 resume_last_session 1
 rg_control.order_linear 2
 rg_control.order_random 1

@@ -43,6 +43,7 @@ Word Wrap Marker=false
 
 [View]
 Allow Mark Menu=true
+Auto Brackets=false
 Auto Center Lines=0
 Auto Completion=true
 Bookmark Menu Sorting=0

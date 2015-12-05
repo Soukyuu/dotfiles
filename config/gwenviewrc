@@ -1,5 +1,5 @@
 [General]
-SideBarPage=operations
+SideBarPage=information
 
 [ImageView]
 AnimationMethod=DocumentView::NoAnimation
