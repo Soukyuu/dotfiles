@@ -1,0 +1,11 @@
+[Event/BellInvisible]
+Execute=
+Logfile=
+TTS=
+
+[Event/startup]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=
