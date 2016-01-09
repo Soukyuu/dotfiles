@@ -1,10 +1,21 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
-Type=Application
-Version=2.1.5
-Name=CUETools
+Categories=AudioVideo;Audio
+Comment[en_US]=CD audio converter/verifier
 Comment=CD audio converter/verifier
 Exec=LANG=ja_JP.UTF-8 WINEPREFIX=/home/azure/.wine32 wine "/mnt/windata/Program Files/CUETools/CUETools.exe"
-Icon=/usr/share/icons/breeze/devices/sidebars/media-optical.svg
+GenericName[en_US]=
+GenericName=
+Icon=media-optical-audio
+MimeType=
+Name[en_US]=CUETools
+Name=CUETools
+Path=
+StartupNotify=true
 Terminal=false
-Categories=AudioVideo;Audio
+TerminalOptions=
+Type=Application
+Version=2.1.5
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
