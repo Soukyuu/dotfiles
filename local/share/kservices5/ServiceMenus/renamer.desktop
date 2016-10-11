@@ -7,7 +7,7 @@ Actions=Rename;
 ServiceTypes=KonqPopupMenu/Plugin,all/allfiles,inode/directory,inode/directory-locked
 
 [Desktop Action Rename]
-Exec=wine /mnt/windata/Program\\ Files/ReNamer/ReNamer.exe %F
+Exec=wine /mnt/winsys/Users/Azure/Program\\ Files/ReNamer/ReNamer.exe %F
 #Icon=accessories-text-editor
 Name=Rename with ReNamer...
 

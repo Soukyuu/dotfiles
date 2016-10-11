@@ -2,7 +2,7 @@
 Categories=AudioVideo;Audio
 Comment[en_US]=Secure CD audio ripper
 Comment=Secure CD audio ripper
-Exec=LANG=ja_JP.UTF-8 WINEPREFIX=/home/azure/.wine32 wine "/mnt/windata/Program Files/CUETools/CUERipper.exe"
+Exec=LANG=ja_JP.UTF-8 WINEPREFIX=/home/azure/.wine32 wine "/mnt/winsys/Users/Azure/Program Files/CUETools/CUERipper.exe"
 GenericName[en_US]=
 GenericName=
 Icon=media-optical-audio

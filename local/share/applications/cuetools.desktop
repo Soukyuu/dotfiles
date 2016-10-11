@@ -2,7 +2,7 @@
 Categories=AudioVideo;Audio
 Comment[en_US]=CD audio converter/verifier
 Comment=CD audio converter/verifier
-Exec=LANG=ja_JP.UTF-8 WINEPREFIX=/home/azure/.wine32 wine "/mnt/windata/Program Files/CUETools/CUETools.exe"
+Exec=LANG=ja_JP.UTF-8 WINEPREFIX=/home/azure/.wine32 wine "/mnt/winsys/Users/Azure/Program Files/CUETools/CUETools.exe"
 GenericName[en_US]=
 GenericName=
 Icon=media-optical-audio
