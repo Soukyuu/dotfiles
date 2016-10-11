@@ -1,3 +1,4 @@
+!filetype
 ARRANGER
 album
 album artist
@@ -10,12 +11,18 @@ audiolength
 audiosize
 author
 bpm
+catalog
+cdtoc
 comment
 composer
 conductor
 copyright
+ctdbdiscconfidence
+ctdbtrackconfidence
 date
+description
 disc
+discid
 discnumber
 encodedby
 encoder
@@ -49,9 +56,12 @@ performer
 performersortorder
 popularimeter
 producednotice
+publisher
 radioowner
 radiostationname
 recordingdates
+release date
+releasecountry
 releasetime
 replaygain_album_gain
 replaygain_album_peak

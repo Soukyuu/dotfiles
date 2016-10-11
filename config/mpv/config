@@ -15,9 +15,10 @@ vo = opengl-hq:interpolation:scaler-resizes-only
 # Interpolation off
 #vo = opengl-hq:scale=ewa_lanczos:cscale=catmull_rom:fbo-format=rgba16f:alpha:swapinterval=1:scaler-resizes-only
 
-vf = vapoursynth=/home/azure/.config/mpv/scripts/mv_interpolation.py
+#vf = vapoursynth=/home/azure/.config/mpv/scripts/mv_interpolation.py
 
 display-fps = 60
+video-sync = display-resample
 
 autofit-larger = 90%x90%
 #no-border

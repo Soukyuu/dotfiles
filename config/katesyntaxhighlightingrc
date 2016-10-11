@@ -30,6 +30,25 @@ Variable=ff2980b9,fffdbc4b,,,,,-,-,,---
 Verbatim String=ffda4453,ffda4453,,,,,-,-,,---
 Warning=ffda4453,ffda4453,,,,,-,-,,---
 
+[Default Item Styles - Schema Solarized (light)]
+Annotation=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Attribute=ff2980b9,fffdbc4b,,,,,-,-,,---
+Built-in=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Comment Variable=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Constant=ffeff0f1,ffeff0f1,1,,,,-,-,,---
+Control Flow=ffeff0f1,ffeff0f1,1,,,,-,-,,---
+Documentation=ffda4453,ffda4453,,,,,-,-,,---
+Extension=ff0095ff,ffeff0f1,1,,,,-,-,,---
+Import=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Information=fff67400,fff67400,,,,,-,-,,---
+Operator=ffeff0f1,ffeff0f1,,,,,-,-,,---
+Preprocessor=ff27ae60,ff27ae60,,,,,-,-,,---
+Special Character=ff3daee9,fffcfcfc,,,,,-,-,,---
+Special String=ffda4453,ffda4453,,,,,-,-,,---
+Variable=ff2980b9,fffdbc4b,,,,,-,-,,---
+Verbatim String=ffda4453,ffda4453,,,,,-,-,,---
+Warning=ffda4453,ffda4453,,,,,-,-,,---
+
 [Highlighting Bash - Schema KDE]
 Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,,,---
 Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,,,---
@@ -190,4 +209,16 @@ Lua:Variable=1,ff5555ff,ffffffff,0,0,,,,,,---
 Normal Text=0,,,,,,,,,,---
 
 [Highlighting None - Schema Normal]
+Normal Text=0,,,,,,,,,,---
+
+[Highlighting None - Schema Printing]
+Normal Text=0,,,,,,,,,,---
+
+[Highlighting None - Schema Solarized (dark)]
+Normal Text=0,,,,,,,,,,---
+
+[Highlighting None - Schema Solarized (light)]
+Normal Text=0,,,,,,,,,,---
+
+[Highlighting None - Schema Vim (dark)]
 Normal Text=0,,,,,,,,,,---

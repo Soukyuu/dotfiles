@@ -2,6 +2,8 @@
 SideBarPage=information
 
 [ImageView]
+AlphaBackgroundColor=0,0,0
+AlphaBackgroundMode=RasterImageView::AlphaBackgroundSolid
 AnimationMethod=DocumentView::NoAnimation
 MouseWheelBehavior=MouseWheelBehavior::Browse
 ThumbnailSplitterSizes=766,218
@@ -44,6 +46,9 @@ Name7[$e]=Scan-150525-0001.tif
 Name8[$e]=Scan-150818-0001.tif
 Name9[$d]
 
+[SideBar]
+PreferredMetaInfoKeyList=General.Name,General.Time,General.ImageSize,Exif.Image.DateTime,Exif.Photo.ExposureTime
+
 [SideBar-BrowseMode]
 IsVisible=true
 
@@ -55,3 +60,4 @@ IsVisible=false
 
 [ThumbnailView]
 ListVideos=false
+ThumbnailDetails=3

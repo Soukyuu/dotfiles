@@ -5,7 +5,7 @@ Enabled=true
 GLColorCorrection=false
 GLCore=true
 GLPlatformInterface=glx
-GLPreferBufferSwap=a
+GLPreferBufferSwap=p
 GLTextureFilter=2
 HiddenPreviews=5
 OpenGLIsUnsafe=false
@@ -64,7 +64,7 @@ TopRight=None
 CommandActiveTitlebar1=Raise
 CommandActiveTitlebar2=Start window tab drag
 CommandActiveTitlebar3=Operations menu
-CommandAll1=Move
+CommandAll1=Nothing
 CommandAll2=Toggle raise and lower
 CommandAll3=Resize
 CommandAllKey=Alt
@@ -79,7 +79,7 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
-blurEnabled[$d]
+blurEnabled=true
 contrastEnabled=false
 coverswitchEnabled[$d]
 cubeslideEnabled=false
@@ -110,6 +110,8 @@ ActivitiesMode=1
 ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=1
 HighlightWindows=true
 LayoutName=org.kde.breeze.desktop

@@ -5,6 +5,7 @@ dummy=prevent-empty-group
 [Normal]
 Color Background[$d]
 Color Code Folding[$d]
+Color Current Line Number[$d]
 Color Highlighted Bracket[$d]
 Color Highlighted Line[$d]
 Color Icon Bar[$d]
@@ -31,4 +32,16 @@ Color Template Focused Editable Placeholder[$d]
 Color Template Not Editable Placeholder[$d]
 Color Word Wrap Marker[$d]
 Font=Oxygen Mono,10,-1,5,50,0,0,0,0,0
+dummy=prevent-empty-group
+
+[Printing]
+dummy=prevent-empty-group
+
+[Solarized (dark)]
+dummy=prevent-empty-group
+
+[Solarized (light)]
+dummy=prevent-empty-group
+
+[Vim (dark)]
 dummy=prevent-empty-group

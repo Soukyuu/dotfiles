@@ -188,10 +188,14 @@ vo_opts[sd] = {
 
 options[hdtv] = {
     ["options/vo"] = function () return vo_property_string(hdtv) end,
+--    ["options/video-sync"] = "display-resample",
+
 }
 
 options[hdbd] = {
     ["options/vo"] = function () return vo_property_string(hdbd) end,
+--    ["options/video-sync"]          = "display-resample",
+
 }
 
 options[hs] = {

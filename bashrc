@@ -12,6 +12,9 @@ alias nano='nano -w'
 alias wine32='WINEPREFIX=/home/azure/.wine32 wine'
 alias ssh-zacate='ssh -p 12310 192.168.178.2'
 alias ssh-vault='ssh -p 12311 192.168.178.222'
+alias ssh-xu='ssh -p 22 192.168.178.58'
+alias rsync="rsync --info=progress2"
+alias dd="dd status=progress"
 
 PATH="$(ruby-1.9 -e 'print Gem.user_dir')/bin:$PATH"
 
