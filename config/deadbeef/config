@@ -16,22 +16,23 @@ artwork.scaled.cache_reset_time 1431818644
 cli_add_playlist_name Now Playing
 cli_add_to_specific_playlist 1
 converter.dsp_preset -1
-converter.encoder_preset 15
+converter.encoder_preset 17
 converter.lastdir file:///tmp
-converter.output_file %n. %t
-converter.output_folder /tmp/ubwost2
+converter.output_file [%artist% - ]%title%
+converter.output_file_tf [%artist% - ]%title%
+converter.output_folder /tmp
 converter.output_format 0
 converter.overwrite_action 1
 deadbeef_version devel
-ffmpeg.extensions aa3;oma;ac3;vqf;amr;tak
-filechooser.lastdir file:///home/azure/Music/Jeremy%20Soule/Guild%20Wars%202%20OST
+ffmpeg.extensions aa3;oma;ac3;vqf;amr;tak;mka
+filechooser.lastdir file:///home/azure/Music/Kino/%D0%9A%D0%B8%D0%BD%D0%BE%20-%20%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0%20%D0%BF%D0%BE%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5
 filechooser.playlist.lastdir file:///home/azure/Music/%5BPlaylists%5D/arch_tmz
 global_preamp 0.0000000
 gtkui.action_separators 0
 gtkui.autoresize_columns 0
 gtkui.color.listview_playing_text 22102 39835 58596
 gtkui.color.listview_selection 22102 39835 58596
-gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"28","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"236","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%track number%","size":"52","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"363","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%[ - %discname%]","size":"301","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"72","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"111","align":"2","color_override":"0","color":"#ff141312"}]
+gtkui.columns.playlist [{"title":"Album Art","id":"8","format":"","size":"146","align":"2","color_override":"0","color":"#ff141312"},{"title":"♫","id":"1","format":"%playstatus%","size":"28","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"%album artist%[／%track artist%]","size":"236","align":"0","color_override":"0","color":"#ff000000"},{"title":"#","id":"-1","format":"%tracknumber%","size":"29","align":"2","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","size":"363","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album% $ifgreater(%totaldiscs%,1, Disc #%discnumber%,)","size":"362","align":"0","color_override":"0","color":"#ff141312"},{"title":"Duration","id":"-1","format":"%length%","size":"49","align":"0","color_override":"0","color":"#ff000000"},{"title":"Codec","id":"-1","format":"%codec%@%bitrate%","size":"97","align":"2","color_override":"0","color":"#ff141312"}]
 gtkui.conf_dsp_preset Speakers
 gtkui.custom_tray_icon deadbeef_tray_icon
 gtkui.delete_files_ask 1
@@ -42,23 +43,25 @@ gtkui.font.tabstrip_text Sans 9
 gtkui.hide_remove_from_disk 1
 gtkui.hide_tray_icon 1
 gtkui.last_playlist_save_name /home/azure/Music/[Playlists]/arch_tmz/Strike the Blood.m3u8
-gtkui.layout.0.6.2 vsplitter pos=914 locked=0 {hsplitter pos=1341 locked=1 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 {} placeholder {} } vsplitter pos=527 locked=1 {tabs active=0 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter pos=25 locked=1 {hsplitter pos=157 locked=1 {playtb {} hbox expand="1 1 1 1" fill="1 1 1 1" homogeneous=1 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Linear" action="order_linear" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Shuffle" action="order_shuffle" use_color=0 use_textcolor=0 {} button color="#000000" textcolor="#000000" label="Repeat" action="loop_cycle" use_color=0 use_textcolor=0 {} } } tabs active=1 num_tabs=2 tab000="Visualization" tab001="Playlists" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
+gtkui.layout.0.6.2 vsplitter locked=2 ratio=0.912913 pos=912 size2=87 {hsplitter locked=2 ratio=0.720193 pos=1341 size2=521 {tabs active=0 num_tabs=2 tab000="Now Playing" tab001="Library" {playlist hideheaders=0 width=1331 {} placeholder {} } vsplitter locked=1 ratio=0.581678 pos=527 size2=0 {tabs active=1 num_tabs=2 tab000="Cover" tab001="Properties" {coverart {} selproperties {} } vsplitter locked=1 ratio=0.067024 pos=25 size2=0 {hsplitter locked=1 ratio=0.304854 pos=157 size2=0 {playtb {} hbox expand="0 0" fill="0 0" homogeneous=0 {button color="#000000" textcolor="#000000" label="SAC" action="toggle_stop_after_current" use_color=0 use_textcolor=0 {} playback_order {} } } tabs active=1 num_tabs=2 tab000="Musical Spectrum" tab001="Playlist browser" {musical_spectrum {} pltbrowser {} } } } } waveform_seekbar {} } 
 gtkui.mmb_delete_playlist 1
 gtkui.name_playlist_from_folder 1
 gtkui.override_bar_colors 0
 gtkui.override_listview_colors 0
 gtkui.override_tabstrip_colors 0
-gtkui.playlist.group_by %album%[ Disc #%discnumber%][ (%year%)]
-gtkui.pltbrowser.highlight_curr_plt 0
+gtkui.playlist.group_by %album%$ifgreater(%totaldiscs%,1, Disc #%discnumber%,)[ (%date%)]
+gtkui.playlist.group_by_tf "%album% $ifgreater(%totaldiscs%,1, Disc #%discnumber%,)[ (%date%)]"
+gtkui.pltbrowser.highlight_curr_plt 1
 gtkui.pltbrowser.mmb_delete_playlist 0
+gtkui.pltbrowser.show_headers 1
 gtkui.refresh_rate 1
 gtkui.statusbar.visible 1
 gtkui.sync 0
 gtkui.tabscroll 568
 gtkui.titlebar_playing %a - %t - DeaDBeeF-%V
-gtkui.titlebar_playing_tf %artist% - %title% - DeaDBeeF-%version%
+gtkui.titlebar_playing_tf %artist% - %title% - DeaDBeeF %_deadbeef_version%
 gtkui.titlebar_stopped DeaDBeeF-%V
-gtkui.titlebar_stopped_tf DeaDBeeF-%version%
+gtkui.titlebar_stopped_tf DeaDBeeF %_deadbeef_version%
 gtkui.tray_volume_sensitivity 1.0
 gtkui.unicode_playstate 0
 gui_plugin GTK2
@@ -99,15 +102,16 @@ hotkey.key34 "XF86AudioStop" 0 1 stop
 hotkey.key35 "Ctrl e" 0 0 toggle_eq
 hotkey.key36 "Shift Ctrl l" 0 0 load_playlist
 hotkey.key37 "Ctrl l" 0 0 add_files
+hotkey.key38 "XF86AudioPause" 0 1 play_pause
 hotkeys_created 1
 ignore_archives 1
 junk.enable_cp1251_detection 1
 junk.enable_shift_jis_detection 1
-mainwin.geometry.h 811
+mainwin.geometry.h 904
 mainwin.geometry.maximized 1
-mainwin.geometry.w 1770
+mainwin.geometry.w 1315
 mainwin.geometry.x 146
-mainwin.geometry.y 0
+mainwin.geometry.y 145
 mp3.id3v1_encoding iso8859-1
 mp3.id3v2_version 3
 mp3.write_id3v1 0
@@ -116,7 +120,7 @@ musical_spectrum.alignment 2
 musical_spectrum.bar_delay 0
 musical_spectrum.bar_falloff -1
 musical_spectrum.bar_w 2
-musical_spectrum.color.background 11565 11308 11308
+musical_spectrum.color.background 8995 9766 10537
 musical_spectrum.color.gradient_00 65535 0 0
 musical_spectrum.color.gradient_01 65535 32896 0
 musical_spectrum.color.gradient_02 65535 65535 0
@@ -152,9 +156,16 @@ notify.albumart_size 64
 notify.enable 1
 notify.format %b%
 notify.format_content %B - %t
+notify.format_content_tf %album artist% - %title%
+notify.format_title_tf %album%
+opus.headergain 1
+opus.loudness 89
+opus.oggname %n-%t.ogg
+opus.opusname %n-%t.opus
+opus.replaygain 0
 output_plugin PulseAudio output plugin
 playback.loop 1
-playback.order 1
+playback.order 0
 playback.volume 0.0000000
 playlist.column.00 "Album Art" "" 8 122 0 0 0 0 0
 playlist.column.01 "♫" "" 1 26 0 0 0 0 0
@@ -163,60 +174,67 @@ playlist.column.03 "Album" "%b" -1 346 0 0 0 0 0
 playlist.column.04 "Track" "%n" -1 53 1 0 0 0 0
 playlist.column.05 "Title" "%t" -1 675 0 0 0 0 0
 playlist.column.06 "Duration" "%l" -1 51 1 0 0 0 0
-playlist.current 18
-playlist.cursor.0 14
-playlist.cursor.1 39
-playlist.cursor.10 8
-playlist.cursor.11 3
-playlist.cursor.12 46
-playlist.cursor.13 0
-playlist.cursor.14 188
-playlist.cursor.15 82
-playlist.cursor.16 82
-playlist.cursor.17 10
-playlist.cursor.18 31
-playlist.cursor.19 86
+playlist.current 15
+playlist.cursor.0 2
+playlist.cursor.1 42
+playlist.cursor.10 7
+playlist.cursor.11 36
+playlist.cursor.12 43
+playlist.cursor.13 44
+playlist.cursor.14 15
+playlist.cursor.15 0
+playlist.cursor.16 88
+playlist.cursor.17 53
+playlist.cursor.18 20
+playlist.cursor.19 14
 playlist.cursor.2 4
-playlist.cursor.20 39
-playlist.cursor.21 25
-playlist.cursor.22 11
-playlist.cursor.23 34
-playlist.cursor.24 2
-playlist.cursor.25 26
-playlist.cursor.3 6
-playlist.cursor.4 49
-playlist.cursor.5 44
-playlist.cursor.6 102
-playlist.cursor.7 20
-playlist.cursor.8 179
-playlist.cursor.9 8
+playlist.cursor.20 245
+playlist.cursor.21 48
+playlist.cursor.22 7
+playlist.cursor.23 39
+playlist.cursor.24 28
+playlist.cursor.25 11
+playlist.cursor.26 5
+playlist.cursor.27 33
+playlist.cursor.28 0
+playlist.cursor.3 18
+playlist.cursor.4 75
+playlist.cursor.5 43
+playlist.cursor.6 20
+playlist.cursor.7 68
+playlist.cursor.8 13
+playlist.cursor.9 127
 playlist.group_by %b
-playlist.scroll.0 183
-playlist.scroll.1 103
+playlist.pin.groups 1
+playlist.scroll.0 708
+playlist.scroll.1 5764
 playlist.scroll.10 0
-playlist.scroll.11 0
-playlist.scroll.12 1133
+playlist.scroll.11 836
+playlist.scroll.12 924
 playlist.scroll.13 0
-playlist.scroll.14 5375
-playlist.scroll.15 3569
-playlist.scroll.16 1141
-playlist.scroll.17 0
-playlist.scroll.18 281
-playlist.scroll.19 2926
+playlist.scroll.14 -15
+playlist.scroll.15 0
+playlist.scroll.16 2921
+playlist.scroll.17 635
+playlist.scroll.18 -20
+playlist.scroll.19 1760
 playlist.scroll.2 0
-playlist.scroll.20 97
-playlist.scroll.21 0
+playlist.scroll.20 6269
+playlist.scroll.21 -48
 playlist.scroll.22 0
-playlist.scroll.23 0
+playlist.scroll.23 -39
 playlist.scroll.24 0
-playlist.scroll.25 448
-playlist.scroll.3 87
-playlist.scroll.4 640
-playlist.scroll.5 124
-playlist.scroll.6 1570
-playlist.scroll.7 0
-playlist.scroll.8 3783
-playlist.scroll.9 825
+playlist.scroll.25 0
+playlist.scroll.26 0
+playlist.scroll.27 -33
+playlist.scroll.28 0
+playlist.scroll.3 492
+playlist.scroll.4 11154
+playlist.scroll.5 -43
+playlist.scroll.6 -20
+playlist.scroll.7 -68
+playlist.scroll.8 -13
+playlist.scroll.9 -127
 playlist.scroll.cursorfollowplayback 1
 playlist.scroll.followplayback 1
 playlist.stop_after_album_reset 1
@@ -225,50 +243,55 @@ playlist.stop_after_current_reset 1
 playlist.tab.00000 Accel World
 playlist.tab.00001 Akame ga Kill! OST
 playlist.tab.00002 Amagami SS
-playlist.tab.00003 Ar tonelico Hymmnos
-playlist.tab.00004 Ar tonelico OST
-playlist.tab.00005 Argevollen OST
-playlist.tab.00006 Battlestar Galactica
-playlist.tab.00007 Blade & Soul
-playlist.tab.00008 DJMax
-playlist.tab.00009 I've Girls Compilation
-playlist.tab.00010 Kajiura Yuki
-playlist.tab.00011 Kikkawa Kouji
-playlist.tab.00012 Ling toshite shigure
-playlist.tab.00013 Monogatari OST
-playlist.tab.00014 OST slow
-playlist.tab.00015 OST uptempo
-playlist.tab.00016 Ragnarok Online
-playlist.tab.00017 Random
-playlist.tab.00018 Sawano Hiroyuki
-playlist.tab.00019 Sound Online
-playlist.tab.00020 Strike the Blood
-playlist.tab.00021 Tokyo Ghoul OST
-playlist.tab.00022 WCW
-playlist.tab.00023 XenobladeX
-playlist.tab.00024 Now Playing
-playlist.tab.00025 New Playlist
+playlist.tab.00003 Ar nosurge Hymmnos
+playlist.tab.00004 Ar tonelico Hymmnos
+playlist.tab.00005 Ar tonelico OST
+playlist.tab.00006 Argevollen OST
+playlist.tab.00007 Battlestar Galactica
+playlist.tab.00008 Blade & Soul
+playlist.tab.00009 DJMax
+playlist.tab.00010 Ghost in the Shell
+playlist.tab.00011 I've Girls Compilation
+playlist.tab.00012 Kajiura Yuki
+playlist.tab.00013 Ling toshite shigure
+playlist.tab.00014 Monogatari OST
+playlist.tab.00015 Now Playing
+playlist.tab.00016 OST slow
+playlist.tab.00017 OST uptempo
+playlist.tab.00018 Ragnarok Online
+playlist.tab.00019 Random
+playlist.tab.00020 Sawano Hiroyuki
+playlist.tab.00021 Shikata Akiko
+playlist.tab.00022 Sound Online
+playlist.tab.00023 Strike the Blood
+playlist.tab.00024 Tokyo Ghoul OST
+playlist.tab.00025 WCW
+playlist.tab.00026 XenobladeX
+playlist.tab.00027 Shimotsuki Haruka
+playlist.tab.00028 New Playlist
 prefwin.geometry.h 572
 prefwin.geometry.maximized 0
 prefwin.geometry.w 830
 prefwin.geometry.x 417
 prefwin.geometry.y 193
-replaygain_mode 1
+replaygain_mode 2
 replaygain_scale 1
 resume.paused 0
-resume.playlist 18
-resume.position 221.45455
-resume.track 31
+resume.playlist 16
+resume.position -1.000000
+resume.track -1
 resume_last_session 1
 rg_control.order_linear 2
 rg_control.order_random 1
 rg_control.order_shuffle 1
 rg_control.order_shuffle_albums 2
+rgscan.num_threads 0
 rgscan.target 89.0
 searchwin.geometry.h 150
 searchwin.geometry.w 450
 searchwin.geometry.x 499
 searchwin.geometry.y 353
+statusnotifier.enable 1
 streamer.8_to_16 1
 trkproperties.geometry.h 690
 trkproperties.geometry.maximized 0
@@ -276,9 +299,9 @@ trkproperties.geometry.w 655
 trkproperties.geometry.x 515
 trkproperties.geometry.y 163
 waveform.bg_alpha 65535
-waveform.bg_color_b 11308
-waveform.bg_color_g 11308
-waveform.bg_color_r 11565
+waveform.bg_color_b 10537
+waveform.bg_color_g 9766
+waveform.bg_color_r 8995
 waveform.border_width 1
 waveform.cache_enabled 1
 waveform.cursor_width 0
